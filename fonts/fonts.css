@@ -1,0 +1,53 @@
+
+ /*@font-face {*/
+    /*font-family: 'Lato-Bold';*/
+    /*src: url('/fonts/fonts.css/Lato-Bold.ttf');*/
+ /*}*/
+ /*@font-face {*/
+    /*font-family: 'Lato-Regular';*/
+    /*src: url('/fonts/fonts.css/Lato-Regular.ttf');*/
+ /*}*/
+ /*@font-face {*/
+    /*font-family: 'Anders';*/
+    /*src: url('/fonts/fonts.css/Anders.ttf');*/
+ /*}*/
+ /*@font-face {*/
+    /*font-family: 'Georgia';*/
+    /*src: url('/fonts/fonts.css/georgiai.ttf');*/
+ /*}*/
+
+ /*@font-face {*/
+    /*font-family: 'Monoton-Regular';*/
+    /*src: url('/fonts/fonts.css/Monoton-Regular.ttf');*/
+ /*}*/
+ @font-face {
+     font-family: 'Anders';
+     src: url('Anders.ttf');
+     font-weight: 700;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Lato-Regular';
+     src: url('Lato-Regular.ttf');
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'Lato-Bold';
+     src: url('Lato-Bold.ttf');
+     font-weight: 700;
+     font-style: normal;
+ }
+ @font-face {
+     font-family: 'Georgia';
+     src: url('georgiai.ttf');
+     font-weight: 200;
+     font-style: normal;
+ }
+ @font-face {
+     font-family: 'Lato-Italic';
+     src: url('Lato-Italic2.ttf');
+     font-style: normal;
+ }

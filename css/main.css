@@ -1,0 +1,18 @@
+
+@import "../fonts/fonts.css";
+
+@import "blockHeader.css";
+@import "blockUbout.css";
+@import "blockPortfolio.css";
+@import "blockTestimonials.css";
+@import "blockCountProgresss.css";
+@import "blockText.css";
+/*@import "blockMinFoot.css";*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px !important;
+}

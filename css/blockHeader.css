@@ -1,0 +1,262 @@
+
+ header{
+  background:linear-gradient(to bottom right, #8f66b9, #ca7f2f);
+}
+header .container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: auto;
+    /*background:linear-gradient(to bottom right, #8f66b9, #ca7f2f);*/
+}
+
+header .row{
+    margin: 0 auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+header .col-social{
+    width: 13%;
+    border-right: 1px solid #bda6c1;
+    padding: 14px 0 !important;
+}
+header .col-empty{
+    width: 49%;
+    border-right: 1px solid #bda6c1;
+    padding: 9px 0 !important;
+}
+header .col-Email{
+    width: 20.5%;
+    border-right: 1px solid #bda6c1;
+    padding: 9px 0 !important;}
+header .col-phone{
+    width: 17%;
+    padding: 9px 0 !important;
+}
+header .col-social span{
+    padding: 0 0 0 17px;
+}
+header .col-social span a{
+    padding: 5px 6.5px !important;
+}
+header .col-social span a i{
+    font-size: 18px;
+    color:#ffffff;
+}
+/*
+header .col-lg-2,
+header .col-lg-3,
+header .col-lg-5{
+  border-left: 1px solid #bda6c1;
+  padding: 9px 0 !important;
+} */
+/* header .col-lg-2:nth-child(1){
+  border-left:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+} */
+
+/* header .col-lg-2 span a {
+  padding: 0 6.5px !important;
+} */
+
+
+header .latoReg{
+    font-family: 'Lato-Regular';
+    font-size: 15px;
+    color: #e5e5e5;
+    line-height: 2;
+}
+header .latoBolt{
+    font-family: 'Lato-Bold';
+    font-size: 17px;
+    margin-top: 5px;
+}
+header .col-Email .latoBolt{
+    padding-left: 3px;
+}
+header p{
+    color: white;
+    margin-bottom: 0rem;
+}
+/* header .col-lg-2 a i{
+  font-size: 18px;
+  color:#ffffff;
+} */
+header .col-lg-2 a i:hover{
+    color: #e5e5e5;
+}
+header .Phone{
+    text-align: end;
+    padding-right: 7px !important;
+}
+header .Email{
+    display: flex;
+    justify-content: center;
+}
+header hr{
+    width: 100%;
+    color: #bda6c1;
+    height: 1px;
+    background-color: #bda6c1;
+    border: none;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+header .container-two{
+    padding: 48px 0 214px 0;
+    position: relative;
+}
+header h4{
+    font-size: 41px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Anders';
+    /*margin-top: 58px;*/
+}
+header .nav{
+    /* transform: translateX(19%); */
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+header .nav-item{
+    padding: 0 9px;
+}
+header .nav-link{
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #e5e5e5;
+    font-family: 'Lato-Bold';
+}
+header .nav-link.active{
+    color: #ffffff;
+}
+header .carousel {
+    position: relative;
+    padding: 0 125px;
+    height: auto;
+    top: 14px;
+}
+
+header h1{
+    font-family: 'Lato-Bold';
+    padding-top: 150px;
+    font-size: 96px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-bottom: -11px !important;
+}
+header .carousel-item p:nth-child(1){
+    font-family: 'Lato-Bold';
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    margin-bottom: 0rem;
+    padding-top: 15px;
+    padding-bottom: 58px;
+}
+header .carousel-item p:nth-child(2){
+    font-family: 'Lato-Regular';
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 28px;
+    line-height: 1;
+}
+header button{
+    border: 2px solid #cccccc;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 24px;
+    text-transform: uppercase;
+    display: flex;
+    margin: 0 auto;
+    /*margin-bottom: 225px*/
+}
+header .carousel-control-next,
+header .carousel-control-prev{
+    width: 5% !important;
+}
+header .carousel-control-next-icon,
+header .carousel-control-prev-icon {
+    height: 0;
+}
+.carousel-control-prev {
+    left: 0px;
+    top: 0px;
+}
+.carousel-control-next {
+    left: 83% !important;
+    top: 0px;
+}
+header .carousel-control-prev-icon {
+    position: absolute;
+    left: 24px;
+    top: 13px;
+}
+header .carousel-control-next-icon{
+    position: absolute;
+    top: 14px;
+    left: 141px;
+}
+header .carousel-indicators {
+    position: absolute;
+    top:418px;
+}
+header .far{
+    font-size: 30px;
+}
+
+header .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: none;
+    border-top: none;
+    border-bottom:none;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+header .carousel-indicators .active {
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    border: 3px solid white;
+    background-color: transparent;
+    margin-top: -3px;
+}
+header .nav>li>a:hover{
+    background-color: #eeeeee00;
+    text-decoration: underline;
+}
+ header h4{
+     animation: anime-H4 1.9s ease-out;
+ }
+ @keyframes anime-H4 {
+     0%{
+         opacity: 0;
+         transform: translateY(-100px);
+     }
+     100%{
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
