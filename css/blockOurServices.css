@@ -1,0 +1,162 @@
+.ourServices .someServ{
+    padding: 50px 0 0 0;
+}
+.ourServices h4{
+    font-family: 'Lato-Bold';
+    font-size: 30px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+.ourServices .sub-title{
+    padding-bottom: 26px;
+}
+/*parallel*/
+.ourServices .parallel{
+    display: flex;
+}
+.ourServices .parallel .noise1{
+    position: relative;
+}
+.ourServices .carousel-item.active {
+    display: flex;
+}
+.ourServices .parallel .noise1 .blockLeft{
+    padding: 230px 74px 230px;
+    width: 50%;
+    background-color: #636363;
+}
+.ourServices .parallel .blockLeft p{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    line-height: 1.2;
+}
+.ourServices .parallel .blockLeft p:nth-child(2){
+    padding-top: 8px;
+}
+.ourServices .parallel .blockLeft p:nth-child(3){
+    padding-top: 8px;
+}
+.ourServices .carousel-indicators {
+    position: absolute;
+    top: 92%;
+    margin: 0px 49.5% 0 0px
+}
+.ourServices .carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: -2px;
+
+}
+.ourServices .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #adadad;
+    background-clip: none;
+    border-top: none;
+    border-bottom: none;
+    opacity: 1;
+    transition: opacity .6s ease;
+}
+.ourServices .parallel .blockRight{
+    width: 50%;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 213px;
+}
+/*blockRight1*/
+.ourServices .parallel .blockRight i{
+    color: #999999;
+}
+.ourServices .parallel .blockRight .lasts{
+    color: #333333;
+}
+.ourServices .parallel .blockRight .lastP{
+    color: #333333;
+}
+.ourServices .parallel .blockRight i.fas.fa-desktop{
+    display: block;
+    text-align: center;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 66px;
+    padding-left: 23px;
+    /*color: #999999;*/
+
+}
+.ourServices .parallel .blockRight  i.fas.fa-heart,
+.ourServices .parallel .blockRight  i.fas.fa-laptop{
+    display: block;
+    text-align: center;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 28px;
+    /*color: #999999;*/
+
+}
+.ourServices .parallel .blockRight  i.fas.fa-paint-brush{
+    display: block;
+    width: 50%;
+    text-align: center;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 66px;
+    margin-left: 86px;
+    /*color: #999999;*/
+
+}
+.ourServices .parallel .blockRight  i.fas.fa-bomb{
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 62px;
+    margin-left: -65px;
+    /*color: #999999;*/
+
+}
+.ourServices .parallel .blockRight  i.fa.fa-line-chart{
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 57px;
+    margin-left: -65px;
+    /*color: #999999;*/
+}
+
+
+.ourServices .parallel .blockRight .brush{
+    width: 50%;
+    margin: -3px 12%;
+}
+.ourServices .parallel .blockRight .chart{
+    width: 50%;
+    margin: -3px 14%;
+}
+.ourServices .parallel .blockRight p{
+    font-family: 'Lato-Bold';
+    font-size: 24px;
+    color: #999999;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 36px;
+}
+
+.ourServices .parallel .blockRight .lastP{
+    color: #333333;
+}

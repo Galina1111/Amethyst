@@ -20,7 +20,7 @@
     line-height: 32px;
     padding-top: 0px;
 }
-.portfolio .toggles button{
+.portfolio .toggles a{
     border: none;
     text-transform: uppercase;
     color: #666666;
@@ -35,10 +35,10 @@
 .portfolio .toggles {
     padding-bottom: 23px;
 }
-.portfolio .toggles .active{
+.portfolio .toggles a.active{
   color: #9966cc;
 }
-.portfolio .toggles button:hover{
+.portfolio .toggles a:hover{
     background-color: #ded5d5;
 }
 .portfolio .posts{
@@ -49,7 +49,7 @@
     /*grid-template-columns: 320px 320px auto auto auto auto auto;*/
 }
 .portfolio .posts .post{
-    /*width: 317px;*/
+    width: 317px;
     height: 213px;
 }
 button:focus {
@@ -74,7 +74,10 @@ button:focus {
 }
 .portfolio .posts .post:hover h6{
     padding-top: 40px;
-    animation: anime-H6 1.6s ease-out;
+    animation: anime-H6 0.5s ease-out;
+}
+.portfolio .posts .post:hover h6+p{
+    animation: anime-p 0.5s ease-out;
 }
 .portfolio .posts .post:hover h6,
 .portfolio .posts .post:hover h6+p{
@@ -100,6 +103,7 @@ button:focus {
     text-align: center;
     padding: 0 42px;
 }
+/*.SET*/
 .portfolio .set {
     display: flex;
     justify-content: center;
@@ -170,7 +174,18 @@ button:focus {
 @keyframes anime-H6 {
     0%{
         opacity: 0;
-        transform: translateY(-50px);
+        transform: translateY(-25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes anime-p {
+    0%{
+        opacity: 0;
+        transform: translateY(25px);
     }
     100%{
         opacity: 1;

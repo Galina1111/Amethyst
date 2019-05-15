@@ -1,58 +1,19 @@
 jQuery(function ($) {
-  $('.toggles button').click(function () {
-    var get_id = this.id;
-    var get_current = $('.posts .' + get_id);
-
-    $('.post').not(get_current).hide(500);
-    get_current.show(500);
-  });
-
-    $('#all').click(function () {
-    $('.post').show(500);
-  //     $(this).addClass('active').css({
-  //       'backgroundColor': "#bbbec2",
-  //       "padding-top": "40px",
-  //       "border":"1px solid #f9f9f9",
-  //
-  // });
-
-
-
-  });
-
-
-
-
-
-    $('.toggles button').on('click', function(){
-        $(this).addClass('active').siblings().removeClass('active');
+    var $container = $('.portfolio .posts');
+    $container.isotope({
+        filter: '*',
     });
 
-    // var urban = document.getElementsByClassName('urban');
-    // var design = document.getElementsByClassName('design');
-    // var posters = document.getElementsByClassName('posters');
-    // var active = document.getElementsByClassName('active');
-    //
-    // if(urban !== active || design !== active || posters !== active){
-    //    $('.urban').css({
-    //        'backgroundColor': '#bbbec2'
-    //    });
-    //     $('.urban p').css({
-    //         'fontSize': '14px',
-    //         'color': 'transparent'
-    //         // 'font-family': 'Lato-Regular'
-    //     });
-    //     $('.urban h6').css({
-    //         'fontSize': '0px'
-    //     });
-    // }
-    // $(urban).hover(function(){
-    //     $(this).css("background-color", "#9466c2");
-    //     // $(this  'p').css("color", "rgba(249, 249, 249, 255)",
-    //     // );
-    // }, function(){
-    //     $(this).css("background-color", "#bbbec2");
-    // });
+    $('.portfolio .toggles a').click(function(){
+        $('.portfolio .toggles a.active').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector,
+        });
+        return false;
+    });
 
 
 
@@ -67,7 +28,14 @@ jQuery(function ($) {
         infinite: true,
         arrows: true /*стрілки керування*/
     });
-// progress-bar
+
+
+        $('.liftSlider').bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true
+        });
 
 });
 
