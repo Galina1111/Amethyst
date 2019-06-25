@@ -11,12 +11,19 @@
     padding-bottom: 26px;
 }
 /*parallel*/
-.ourServices .parallel{
-    display: flex;
-}
+/*.ourServices .parallel{*/
+    /*display: flex;*/
+/*}*/
 .ourServices .parallel .noise1{
     position: relative;
 }
+/*.ourServices .carousel-item{*/
+      /*display: inline-block;*/
+  /*}*/
+/*.ourServices .carousel-item {*/
+/*display: flex;*/
+/*}*/
+
 .ourServices .carousel-item.active {
     display: flex;
 }

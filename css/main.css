@@ -8,7 +8,9 @@
 @import "blockCountProgresss.css";
 @import "blockText.css";
 @import "blockOurServices.css";
-
+@import "blockOurTeam.css";
+@import "blockBenefits.css";
+@import "blockPlans.css";
 *{
     padding: 0;
     margin: 0;
@@ -25,4 +27,10 @@
     line-height: 32px;
     padding-top: 5px;
     /*padding-bottom: 36px;*/
+}
+h4{
+    font-family: 'Lato-Bold';
+    font-size: 30px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
 }

@@ -1,0 +1,9 @@
+.plans{
+   background-color: #ffffff;
+}
+.plans .container{
+    padding-top: 50px;
+}
+.plans .container .sub-title{
+    padding-bottom: 28px;
+}
