@@ -20,9 +20,9 @@
 /*.ourServices .carousel-item{*/
       /*display: inline-block;*/
   /*}*/
-/*.ourServices .carousel-item {*/
-/*display: flex;*/
-/*}*/
+/* .ourServices .carousel-item {
+   display: flex;
+ } */
 
 .ourServices .carousel-item.active {
     display: flex;

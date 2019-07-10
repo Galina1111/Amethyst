@@ -1,0 +1,41 @@
+.contactUs{
+    background-color: #ffffff;
+}
+.contactUs .container{
+    padding-top: 50px;
+    padding-bottom: 13px;
+}
+.contactUs .container .sub-title{
+    padding-top: 3px;
+}
+
+.contactUs .container .contacts-list {
+    display: grid;
+    grid-template-columns: 177px 177px 177px;
+    justify-content: center;
+    grid-column-gap: 47px;
+}
+.contactUs .container .contacts-list .street,
+.contactUs .container .contacts-list .number,
+.contactUs .container .contacts-list .emel{
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    color: rgba(153, 153, 153, 255);
+    text-align: center;
+    line-height: 2.3;
+}
+.contactUs .container .contacts-list .street .fa-map-marker-alt{
+    padding-right: 10px;
+}
+.contactUs .container .contacts-list .number .fa-mobile-alt{
+    padding-right: 10px;
+    font-size: 12px;
+}
+.contactUs .container .contacts-list .emel .fa-envelope-o{
+    padding-right: 10px;
+    font-size: 14px
+}
+.contactUs .black{
+    height: 400px;
+    background-color: #333333;
+}

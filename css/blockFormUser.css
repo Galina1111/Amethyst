@@ -1,0 +1,56 @@
+.formUser{
+    background-color: #ffffff;
+}
+.formUser .container{
+    padding-top: 30px;
+    padding-bottom: 1px
+}
+.formUser .container h6{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    color: rgba(102, 102, 102, 255);
+    text-align: center;
+}
+.formUser .container .form-control{
+    color: #ced4da;
+    height: 35px;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    color: rgba(204, 204, 204, 255);
+    text-align: left;
+    border: 1px solid #ced4da;
+}
+.formUser .container form {
+    padding-top: 27px;
+}
+.formUser .container form .form-row>.col, .form-row>[class*=col-] {
+     padding-right: 15px;
+     padding-left: 15px;
+}
+.formUser .container form .form-row.justify-content-md-center {
+    margin-bottom: 16px;
+}
+.formUser .container form .textHei{
+    height: 113px !important;
+}
+
+.formUser .container button{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    text-transform: uppercase !important;
+    background-color: white;
+    border: 2px solid #9966cc;
+    width: 150px;
+    height: 41px;
+    border-radius: 54px;
+}
+.formUser .container button:hover,
+.formUser .container .form-control:hover{
+    box-shadow: 0 0 15px 2px rgba(156, 39, 176, 0.17);
+}
+.formUser .container .form-row>.col, .form-row>[class*=col-] {
+    /* padding-right: 5px; */
+    /* padding-left: 5px; */
+}

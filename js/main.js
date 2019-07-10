@@ -1,10 +1,14 @@
 jQuery(function ($) {
+   // function getClass(a) {
+   //     document.getElementsByClassName(a)
+   // }
+
     var $container = $('.portfolio .posts');
     $container.isotope({
         filter: '*',
     });
 
-    $('.portfolio .toggles a').click(function(){
+    $('.portfolio .toggles a').click(function () {
         $('.portfolio .toggles a.active').removeClass('active');
         $(this).addClass('active');
 
@@ -17,11 +21,11 @@ jQuery(function ($) {
 
 
 
-//анімація
+    //анімація
     new WOW().init();
-//слайдер
+    //слайдер
     $('.your-class').slick({
-        autoplay:  true,
+        autoplay: true,
         autoplaySpeed: 2000,
         // speed: 1000,
         slidesToShow: 6,
@@ -80,9 +84,6 @@ jQuery(function ($) {
     //     $(this).animate({ width: bar_value }, { duration: 2000, easing: 'easeOutCirc' });
     // });
 
-
-
-
     function animat1() {
         if (width >= 80) {
             clearInterval(id);
@@ -128,12 +129,44 @@ jQuery(function ($) {
     // animat3();
     // animat4();
 
-   // $( '#bar' ).scrollTop(300)
-   //
+    // $( '#bar' ).scrollTop(300)
+    //
     $(window).scroll(animat1);
-     $(window).scroll(animat2);
-     $(window).scroll(animat3);
-     $(window).scroll(animat4);
+    $(window).scroll(animat2);
+    $(window).scroll(animat3);
+    $(window).scroll(animat4);
+
+
+
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+
+        });
+    };
+
+
+
+
 
 
 });
+$( function() {
+    $( "#tabs" ).tabs({
+            show: { effect: "fade", duration: 300 },
+            hide: { effect: "fade", duration: 300 },
+        });
+});
+// $( function() {
+//     $( "#accordion" ).accordion();
+// } );

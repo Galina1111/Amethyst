@@ -36,7 +36,7 @@ header .col-social span{
     padding: 0 0 0 17px;
 }
 header .col-social span a{
-    padding: 5px 6.5px !important;
+    padding: 5px 5px !important;
 }
 header .col-social span a i{
     font-size: 18px;
@@ -71,7 +71,7 @@ header .latoReg{
 header .latoBolt{
     font-family: 'Lato-Bold';
     font-size: 17px;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 header .col-Email .latoBolt{
     padding-left: 3px;

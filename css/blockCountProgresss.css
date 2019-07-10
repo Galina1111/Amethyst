@@ -35,7 +35,7 @@
     font-family: 'Lato-Bold';
     font-size: 60px;
     color: rgba(255, 255, 255, 255);
-    transform: translate(0%, 135%);
+    /* transform: translate(0%, 135%); */
     text-align: center;
 }
 .countProgress .container #counter .b1 .text{
@@ -45,5 +45,5 @@
     font-size: 18px;
     /* padding-top: 68px; */
     color: rgba(255, 255, 255, 255);
-    transform: translate(0%, 333%);
+    /* transform: translate(0%, 333%); */
 }

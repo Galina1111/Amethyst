@@ -1,0 +1,51 @@
+.followUs{
+    background-color: #666666;
+}
+.followUs .container{
+    padding-bottom: 25px;
+}
+.followUs .container h4 {
+    color: rgba(255, 255, 255, 255);
+    padding-top: 25px;
+}
+.followUs .container .sub-title{
+    color: rgba(255, 255, 255, 255);
+    padding-top: 0px;
+}
+.followUs .container .socialNetworks {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-column-gap: 22px;
+}
+.followUs .container .socialNetworks .socialNetwork {
+    border: 2px solid #e1e1e1;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.followUs .container .socialNetworks .fa-linkedin-in,
+.followUs .container .socialNetworks  .fa-twitter{
+    color: rgba(255, 255, 255, 255);
+
+}
+.followUs .container .socialNetworks .fa-linkedin-in{
+    font-size: 29px;
+    margin: 16px 16px;
+    color: #e1e1e1;
+}
+.followUs .container .socialNetworks  .fa-twitter{
+    font-size: 27px;
+    margin: 13px 16px;
+    color: #e1e1e1;
+}
+.followUs .container .socialNetworks .facebookImg{
+    width: 57px;
+    margin-top: -9px
+}
+.followUs .container .socialNetworks .gooleImg{
+    width: 29px;
+    margin-top: 13px;
+    margin-left: 15px;
+    display: grid
+}

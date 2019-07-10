@@ -11,6 +11,12 @@
 @import "blockOurTeam.css";
 @import "blockBenefits.css";
 @import "blockPlans.css";
+@import "blockBlogMesseg.css";
+@import "blockFollowUs.css";
+@import "blockContactUs.css";
+@import "blockFormUser.css";
+@import "blockFooter.css";
+
 *{
     padding: 0;
     margin: 0;
@@ -34,3 +40,6 @@ h4{
     color: rgba(51, 51, 51, 255);
     text-align: center;
 }
+/*{*/
+/*box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);*/
+/*}*/
