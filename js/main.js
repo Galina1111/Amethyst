@@ -157,6 +157,11 @@ jQuery(function ($) {
 
 
 
+    $(".button a").click(function(event) {
+        $(".button a").removeClass("active");
+        $(this).addClass("active");
+    });
+
 
 
 
@@ -167,6 +172,3 @@ $( function() {
             hide: { effect: "fade", duration: 300 },
         });
 });
-// $( function() {
-//     $( "#accordion" ).accordion();
-// } );

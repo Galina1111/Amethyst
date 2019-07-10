@@ -20,8 +20,8 @@
     border: 2px solid #cccccc;
     margin-bottom: 40px;
 }
-.plans .container a{
-    padding: 7px 12px;
+.plans .container .button a{
+    padding: 6px 12px;
     font-family: 'Lato-Regular';
     font-size: 14px;
     text-align: center;
@@ -29,8 +29,9 @@
     border-radius: 20px;
     width: 90px;
     margin-left: 2px;
+    cursor: pointer;
 }
-.plans .container a.active{
+.plans .container  .button a.active{
     color: rgba(255, 255, 255, 255);
     background-color: #9966cc;
 }

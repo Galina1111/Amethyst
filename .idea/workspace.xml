@@ -2,69 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4579143-e39b-409e-b5b3-708abf8b9598" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/blockBlogMesseg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/blockContactUs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/blockFollowUs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/blockFooter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/blockFormUser.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/css/font-awesome-ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/css/font-awesome-ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/font-awesome-ie7.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/_bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/font-awesome-ie7.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font-awesome/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/iconfinder-icon (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/iconfinder-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom.accor/jquery-ui-1.12.1.custom/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blockCountProgresss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blockCountProgresss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blockHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blockHeader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blockOurServices.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blockOurServices.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blockFollowUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blockFollowUs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blockFooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blockFooter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blockPlans.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blockPlans.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blockPortfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blockPortfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -79,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32738096">
+    <splitter split-orientation="horizontal" split-proportion="0.4017857">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
@@ -100,11 +41,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blockFooter.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="blockFooter.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blockFooter.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="155">
-                  <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+                <state relative-caret-position="178">
+                  <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blockFollowUs.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/blockFollowUs.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -116,8 +66,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2873">
-                  <caret line="169" selection-start-line="169" selection-start-column="3" selection-end-line="171" selection-end-column="7" />
+                <state relative-caret-position="161">
+                  <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="165" />
                 </state>
               </provider>
             </entry>
@@ -126,7 +76,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="359">
-                  <caret line="1551" column="30" selection-start-line="1551" selection-start-column="19" selection-end-line="1551" selection-end-column="30" />
+                  <caret line="1497" column="27" lean-forward="true" selection-start-line="1497" selection-start-column="27" selection-end-line="1497" selection-end-column="27" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -144,21 +94,11 @@
                     <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1562754098510" expanded="true" signature="80110:80976" ph="..." />
+                    <marker date="1562770638695" expanded="true" signature="80111:80977" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blockPortfolio.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/blockPortfolio.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2295">
-                  <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -196,19 +136,19 @@
         <option value="$PROJECT_DIR$/css/blockBenefits.css" />
         <option value="$PROJECT_DIR$/css/theme.css" />
         <option value="$PROJECT_DIR$/css/blockPortfolio.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/blockPlans.css" />
         <option value="$PROJECT_DIR$/fonts/fonts.css" />
         <option value="$PROJECT_DIR$/css/blockBlogMesseg.css" />
         <option value="$PROJECT_DIR$/css/blockContactUs.css" />
         <option value="$PROJECT_DIR$/css/blockForm.css" />
-        <option value="$PROJECT_DIR$/css/blockFollowUs.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/blockFormUser.css" />
-        <option value="$PROJECT_DIR$/css/blockFooter.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/blockHeader.css" />
         <option value="$PROJECT_DIR$/js/numcount.js" />
+        <option value="$PROJECT_DIR$/css/blockFooter.css" />
+        <option value="$PROJECT_DIR$/css/blockPlans.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/blockFollowUs.css" />
       </list>
     </option>
   </component>
@@ -231,10 +171,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1837" />
-    <option name="y" value="54" />
-    <option name="width" value="983" />
-    <option name="height" value="495" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,7 +193,7 @@
             <path>
               <item name="My-portfolio-jquery" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-portfolio-jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,12 +258,12 @@
       <workItem from="1562244953552" duration="672000" />
       <workItem from="1562246847635" duration="598000" />
       <workItem from="1562317684899" duration="81390000" />
-      <workItem from="1562750751690" duration="5440000" />
+      <workItem from="1562750751690" duration="13955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327583000" />
+    <option name="totallyTimeSpent" value="336098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,15 +276,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14014752" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19791667" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32849163" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32933104" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32849163" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.424581" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.03259005" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -359,24 +300,50 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14014752" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19791667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32849163" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32933104" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.424581" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.03259005" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32849163" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -429,11 +396,10 @@
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1562754098510" expanded="true" signature="80110:80976" ph="..." />
+            <marker date="1562770638695" expanded="true" signature="80111:80977" ph="..." />
           </folding>
         </state>
       </provider>
@@ -480,11 +446,10 @@
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1562754098510" expanded="true" signature="80110:80976" ph="..." />
+            <marker date="1562770638695" expanded="true" signature="80111:80977" ph="..." />
           </folding>
         </state>
       </provider>
@@ -545,11 +510,10 @@
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1562754098510" expanded="true" signature="80110:80976" ph="..." />
+            <marker date="1562770638695" expanded="true" signature="80111:80977" ph="..." />
           </folding>
         </state>
       </provider>
@@ -603,11 +567,10 @@
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1562754098510" expanded="true" signature="80110:80976" ph="..." />
+            <marker date="1562770638695" expanded="true" signature="80111:80977" ph="..." />
           </folding>
         </state>
       </provider>
@@ -654,11 +617,10 @@
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1562754098510" expanded="true" signature="80110:80976" ph="..." />
+            <marker date="1562770638695" expanded="true" signature="80111:80977" ph="..." />
           </folding>
         </state>
       </provider>
@@ -736,27 +698,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/theme.css" />
-    <entry file="file://$PROJECT_DIR$/css/blockPortfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="169" selection-start-line="169" selection-start-column="3" selection-end-line="171" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blockPlans.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="184" column="34" lean-forward="true" selection-start-line="184" selection-start-column="34" selection-end-line="184" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/blockBlogMesseg.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -768,13 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blockFollowUs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -799,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blockFooter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/numcount.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -820,10 +747,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/blockFooter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blockPortfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blockPlans.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <marker date="1562767885280" expanded="true" signature="3811:5131" ph="..." />
+            <marker date="1562767885280" expanded="true" signature="5702:5793" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="1551" column="30" selection-start-line="1551" selection-start-column="19" selection-end-line="1551" selection-end-column="30" />
+          <caret line="1497" column="27" lean-forward="true" selection-start-line="1497" selection-start-column="27" selection-end-line="1497" selection-end-column="27" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -841,12 +800,18 @@
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1562754098510" expanded="true" signature="80110:80976" ph="..." />
+            <marker date="1562770638695" expanded="true" signature="80111:80977" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blockFollowUs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
         </state>
       </provider>
     </entry>
