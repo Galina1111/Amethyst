@@ -62,8 +62,8 @@ footer .anchor{
     width: 35px;
     border-radius: 6px;
     position: absolute;
-    left: 584px;
-    bottom: 30px;
+    right: 40px;
+    bottom: 40px;
 }
 footer .fa-angle-double-up{
     font-size: 17px;
@@ -103,7 +103,7 @@ footer .fa-twitter{
     font-size: 18px;
     padding: 0 0px 0 1px;
 }
-footer .fa-linkedin-in:hover,
+footer .fa-linkedin-in:hovanchorer,
 footer .fa-twitter:hover,
 footer .fa-facebook-square:hover,
 footer .fa-google-plus:hover{
