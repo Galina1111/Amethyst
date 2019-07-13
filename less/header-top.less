@@ -1,0 +1,229 @@
+/*header_Main*/
+.header-top {
+  background: linear-gradient(to bottom right, #8f66b9, #ca7f2f);
+  .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: auto;
+    margin: 0 auto;
+    .row {
+      display: flex;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    .col-social {
+      width: 13%;
+      border-right: 1px solid #bda6c1;
+      padding: 14px 0 !important;
+      span {
+        margin: 0 0 0 20px;
+        a {
+          margin: 5px 5px !important;
+          i {
+            font-size: 18px;
+            color: #ffffff;
+          }
+        }
+      }
+      i {
+        &:hover {
+          color: #7f00ff57;
+        }
+      }
+    }
+    .col-empty {
+      width: 49%;
+      border-right: 1px solid #bda6c1;
+    }
+    .col-Email {
+      width: 20.5%;
+      border-right: 1px solid #bda6c1;
+      padding: 9px 0 !important;
+    }
+    .Email {
+      display: flex;
+      justify-content: center;
+    }
+    .col-phone {
+      width: 17%;
+      margin: 9px 0 !important;
+    }
+    .Phone {
+      text-align: end;
+      padding-right: 7px !important;
+    }
+    .latoReg {
+      font-family: 'Lato-Regular';
+      font-size: 15px;
+      color: #e5e5e5;
+      line-height: 2;
+    }
+    .latoBolt {
+      font-family: 'Lato-Bold';
+      font-size: 17px;
+      margin-top: 2px;
+    }
+    p {
+      color: white;
+      margin-bottom: 0rem;
+    }
+  }
+  .container.col-Email {
+    .latoBolt {
+      padding-left: 3px;
+    }
+  }
+  hr {
+    width: 100%;
+    color: #bda6c1;
+    height: 1px;
+    background-color: #bda6c1;
+    border: none;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .header_Main {
+    position: relative;
+    padding-top: 43px;
+    padding-bottom: 100px;
+    h4 {
+      font-size: 41px;
+      color: #ffffff;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Anders';
+    }
+    .nav {
+      width: 65%;
+      margin: 10px auto;
+      >li {
+        >a {
+          &:hover {
+            background-color: #eeeeee00;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .nav-item {
+      margin: 0 9px;
+      .active {
+        color: #ffffff;
+      }
+    }
+    .nav-link {
+      font-weight: 600;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #e5e5e5;
+      font-family: 'Lato-Bold';
+    }
+    .carousel {
+      height: auto;
+      margin-top: 160px;
+    }
+    .carousel-inner {
+      margin: 0 11%;
+      width: 77%;
+    }
+    h1 {
+      font-family: 'Lato-Bold';
+      font-size: 96px;
+      color: rgba(255, 255, 255, 255);
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 80px;
+      margin-bottom: -11px !important;
+    }
+    .carousel-item {
+      p {
+        &:nth-child(2) {
+          font-family: 'Lato-Bold';
+          text-transform: uppercase;
+          font-size: 30px;
+          color: rgba(255, 255, 255, 255);
+          text-align: center;
+          margin-bottom: 0rem;
+          margin-top: 22px;
+        }
+        &:nth-child(3) {
+          font-family: 'Lato-Regular';
+          text-align: center;
+          font-size: 18px;
+          color: rgba(255, 255, 255, 255);
+          margin-top: 57px;
+          line-height: 1;
+        }
+      }
+    }
+    button {
+      border: 2px solid #cccccc;
+      border-radius: 50px;
+      background-color: transparent;
+      color: #ffffff;
+      font-size: 16px;
+      text-transform: uppercase;
+      display: flex;
+      margin: 37px auto;
+      padding: 6px 31px;
+      &:hover {
+        color: #4e108c;
+        border: 2px solid #4e108c;
+      }
+    }
+    .carousel-control-next {
+      width: 5% !important;
+    }
+    .carousel-control-prev {
+      width: 5% !important;
+    }
+    .carousel-control-next-icon {
+      height: 0;
+      position: absolute;
+      top: 102px;
+      left: 2px;
+    }
+    .carousel-control-prev-icon {
+      background-image: none;
+      position: absolute;
+      top: 102px;
+      right: 12px;
+    }
+    .carousel-indicators {
+      position: absolute;
+      top: 418px;
+      li {
+        box-sizing: content-box;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 8px;
+        height: 8px;
+        border-radius: 20px;
+        margin-right: 8px;
+        margin-left: 8px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #fff;
+        background-colip: none;
+        border-top: none;
+        border-bottom: none;
+        opacity: .5;
+        transition: opacity .6s ease;
+      }
+      .active {
+        opacity: 1;
+        width: 8px;
+        height: 8px;
+        border: 3px solid white;
+        background-color: transparent;
+        margin-top: -3px;
+      }
+    }
+    .far {
+      font-size: 30px;
+    }
+  }
+  .header_Main.carousel-control-prev-icon {
+    height: 0;
+  }
+}

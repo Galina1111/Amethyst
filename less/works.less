@@ -1,0 +1,160 @@
+@color_1: rgba(51, 51, 51, 255);
+@color_2: #666666;
+@color_3: #9966cc;
+@color_4: rgba(255, 255, 255, 255);
+@color_5: rgba(249, 249, 249, 255);
+@font_family_1: 'Lato-Bold';
+@font_family_2: 'Georgia';
+@font_family_3: 'Lato-Regular';
+@background_color_1: transparent;
+@background_color_2: #9966cc;
+
+@keyframes anime-H6 {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes anime-p {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.Works {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  h4 {
+    font-family: @font_family_1;
+    text-align: center;
+    font-size: 30px;
+    color: @color_1;
+    margin-top: 16px;
+  }
+  .sub-title {
+    font-family: @font_family_2;
+    font-size: 16px;
+    color: @color_2;
+    text-align: center;
+    font-style: italic;
+    line-height: 32px;
+    margin-top: 12px;
+  }
+  .toggles {
+    margin-top: 23px;
+    a {
+      border: none;
+      text-transform: uppercase;
+      color: @color_2;
+      font-family: @font_family_1;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      margin: 6px 10px;
+      padding: 6px 15px;
+      background-color: @background_color_1;
+      &:hover {
+        box-shadow: 0 0 13px 1px rgba(0, 0, 0, 0.2);
+      }
+    }
+    a.active {
+      color: @color_3;
+    }
+  }
+  .posts {
+    width: 100%;
+    margin: 34px 0 0 0;
+    .post {
+      width: 317px;
+      height: 213px;
+      position: relative;
+      background-color: @background_color_2;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      h6 {
+        display: none;
+      }
+      h6&+p {
+        display: none;
+      }
+      &:hover {
+        img {
+          display: none;
+        }
+        h6 {
+          padding-top: 40px;
+          animation: anime-H6 0.5s ease-out;
+          display: block;
+        }
+        h6&+p {
+          animation: anime-p 0.5s ease-out;
+          display: block;
+        }
+      }
+    }
+    .design {
+      h6 {
+        font-family: @font_family_3;
+        font-size: 16px;
+        color: @color_4;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      p {
+        font-family: @font_family_3;
+        font-size: 14px;
+        color: @color_5;
+        text-align: center;
+        padding: 0 42px;
+      }
+    }
+    .urban {
+      h6 {
+        font-family: @font_family_3;
+        font-size: 16px;
+        color: @color_4;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      p {
+        font-family: @font_family_3;
+        font-size: 14px;
+        color: @color_5;
+        text-align: center;
+        padding: 0 42px;
+      }
+    }
+    .posters {
+      h6 {
+        font-family: @font_family_3;
+        font-size: 16px;
+        color: @color_4;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      p {
+        font-family: @font_family_3;
+        font-size: 14px;
+        color: @color_5;
+        text-align: center;
+        padding: 0 42px;
+      }
+    }
+  }
+  button {
+    &:focus {
+      outline: none;
+    }
+  }
+}

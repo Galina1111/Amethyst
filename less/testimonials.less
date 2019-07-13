@@ -1,0 +1,135 @@
+@color_1: rgba(51, 51, 51, 255);
+@color_2: rgba(102, 102, 102, 255);
+@color_3: rgba(153, 153, 153, 255);
+@color_4: #cccccc;
+@color_5: #999999;
+@font_family_1: 'Lato-Bold';
+@font_family_2: 'Georgia';
+@font_family_3: 'Lato-Regular';
+@background_color_1: transparent;
+@background_color_2: #cccccc;
+
+/*slick slider*/
+.Testimonials {
+  padding-top: 50px;
+  padding-bottom: 34px;
+  .container {
+    h4 {
+      font-family: @font_family_1;
+      font-size: 30px;
+      color: @color_1;
+      text-align: center;
+    }
+    .carousel {
+      margin-top: 43px;
+      line-height: 1.3;
+    }
+    .testimonial {
+      font-family: @font_family_2;
+      font-style: italic;
+      font-size: 16px;
+      color: @color_2;
+      text-align: center;
+    }
+    .userFoto {
+      width: 120px;
+      height: 120px;
+      border: 2px solid #e5e5e5;
+      border-radius: 70px;
+      img {
+        transform: translate(8px,4px);
+      }
+    }
+    .user {
+      grid-template-columns: 120px auto;
+      display: grid;
+      width: 63%;
+      justify-content: end;
+      margin-top: 52px;
+      line-height: 0.2;
+    }
+    .userName {
+      margin: 36px 25px;
+      p {
+        &:first-child {
+          font-size: 16px;
+          color: @color_1;
+          font-family: @font_family_3;
+          text-transform: uppercase;
+        }
+        &:last-child {
+          font-family: @font_family_3;
+          font-size: 16px;
+          color: @color_3;
+          margin-bottom: 0rem;
+        }
+      }
+    }
+  }
+  .carousel-indicators {
+    .active {
+      opacity: 1;
+      width: 8px;
+      height: 8px;
+      border: 3px solid #999999;
+      background-color: @background_color_1;
+      margin-top: -3px;
+    }
+    position: absolute;
+    top: 290px;
+    right: -3px;
+    li {
+      background-color: @background_color_2;
+      width: 8px;
+      height: 8px;
+      border-radius: 20px;
+      margin-right: 8px;
+      margin-left: 8px;
+      border-top: none;
+      border-bottom: none;
+    }
+  }
+  .your-class {
+    display: flex;
+    margin-top: 130px;
+    .slick-initialized {
+      .slick-slide {
+        margin: 0 20px;
+      }
+    }
+    .slick-slide {
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+  .slick-prev {
+    position: absolute;
+    top: 46%;
+    right: -37px;
+    &:before {
+      color: @color_4;
+      font-size: 34px;
+    }
+    &:hover {
+      &:before {
+        color: @color_5;
+      }
+    }
+  }
+  .slick-next {
+    position: absolute;
+    top: 46%;
+    right: -37px;
+    &:before {
+      color: @color_4;
+      font-size: 34px;
+    }
+    &:hover {
+      &:before {
+        color: @color_5;
+      }
+    }
+  }
+}
