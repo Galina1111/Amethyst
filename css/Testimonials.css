@@ -1,0 +1,103 @@
+.Testimonials {
+    padding-top: 50px;
+    padding-bottom: 34px;
+}
+.Testimonials .container h4{
+    font-family: 'Lato-Bold';
+    font-size: 30px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+.Testimonials .container .carousel {
+    margin-top: 43px;
+    line-height: 1.3;
+}
+.Testimonials .container .testimonial{
+    font-family: 'Georgia';
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 255);
+    text-align: center;
+}
+.Testimonials .container .userFoto{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #e5e5e5;
+    border-radius: 70px;
+}
+.Testimonials .container .userFoto img{
+    transform: translate(8px,4px);
+}
+.Testimonials .container .user{
+    grid-template-columns: 120px auto;
+    display: grid;
+    width: 63%;
+    justify-content: end;
+    margin-top: 52px;
+    line-height: 0.2;
+}
+.Testimonials .container .userName {
+    margin: 36px 25px;
+}
+.Testimonials .container .userName p:first-child{
+    font-size: 16px;
+    color: rgba(51, 51, 51, 255);
+    font-family: 'Lato-Regular';
+    text-transform: uppercase;
+}
+.Testimonials .container .userName p:last-child{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    color: rgba(153, 153, 153, 255);
+    margin-bottom: 0rem;
+}
+.Testimonials .carousel-indicators .active {
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    border: 3px solid #999999;
+    background-color: transparent;
+    margin-top: -3px;
+}
+.Testimonials .carousel-indicators {
+    position: absolute;
+    top: 290px;
+    right: -3px;
+}
+.Testimonials .carousel-indicators li{
+    background-color: #cccccc;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-top: none;
+    border-bottom: none;
+}
+/*slick slider*/
+.Testimonials .your-class {
+    display: flex;
+    margin-top: 130px;
+}
+.Testimonials .your-class .slick-initialized .slick-slide{
+    margin: 0 20px;
+}
+.Testimonials .your-class .slick-slide img{
+    display: block;
+    margin: 0 auto;
+}
+.Testimonials .slick-prev,
+.Testimonials  .slick-next{
+    position: absolute;
+    top: 46%;
+    right: -37px;
+}
+.Testimonials .slick-prev:before,
+.Testimonials  .slick-next:before{
+    color: #cccccc;
+    font-size: 34px;
+}
+.Testimonials .slick-prev:hover:before,
+.Testimonials .slick-next:hover:before{
+    color: #999999;
+}
