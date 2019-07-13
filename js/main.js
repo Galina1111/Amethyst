@@ -1,12 +1,12 @@
 jQuery(function ($) {
 
-    var $container = $('.Works .posts');
+    var $container = $('.works .posts');
     $container.isotope({
         filter: '*',
     });
 
-    $('.Works .toggles a').click(function () {
-        $('.Works .toggles a.active').removeClass('active');
+    $('.works .toggles a').click(function () {
+        $('.works .toggles a.active').removeClass('active');
         $(this).addClass('active');
 
         var selector = $(this).attr('data-filter');

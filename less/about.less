@@ -1,31 +1,20 @@
-@color_1: #333333;
-@color_2: #666666;
-@color_3: black;
-@color_4: rgba(51, 51, 51, 255);
-@color_5: #9149da;
-@font_family_1: 'Lato-Bold';
-@font_family_2: 'Lato-Regular';
-@font_family_3: Lato-Bold;
-@background_color_1: #ffffff;
-@background_color_2: transparent;
-
-.About {
-  background-color: @background_color_1;
+.about {
+  background-color: @background_color_7;
   margin-top: 63px;
   .container {
     h5 {
-      color: @color_1;
+      color: @color_12;
       text-align: center;
       font-size: 30px;
-      font-family: @font_family_1;
+      font-family: @font_family_2;
     }
     .sub-title {
       margin-top: 10px;
     }
     .coment {
-      font-family: @font_family_2;
+      font-family: @font_family_3;
       font-size: 16px;
-      color: @color_2;
+      color: @color_1;
       text-align: center;
       line-height: 22px;
       margin-top: 19px;
@@ -33,9 +22,9 @@
     li {
       list-style-type: none;
       p {
-        color: @color_2;
+        color: @color_1;
         font-size: 16px;
-        font-family: @font_family_2;
+        font-family: @font_family_3;
         line-height: 1.2;
         margin-bottom: 0rem;
         margin-top: 0px;
@@ -75,9 +64,9 @@
     h6 {
       font-size: 18px;
       text-transform: uppercase;
-      font-family: @font_family_3;
+      font-family: @font_family_5;
       line-height: 2;
-      color: @color_3;
+      color: @color_13;
       &:nth-child(1) {
         &::before {
           content: " ";
@@ -92,17 +81,18 @@
       }
     }
     button {
-      font-family: @font_family_2;
+      font-family: @font_family_3;
       margin: 34px 0px;
       font-size: 16px;
-      color: @color_4;
+      color: @color_2;
       text-transform: uppercase;
       border: 2px solid #9966cc;
       border-radius: 30px;
       padding: 7px 24px;
       background-color: @background_color_2;
       &:hover {
-        color: @color_5;
+        color: #fffeff;
+        background-color: @color_14;
       }
     }
   }
@@ -113,6 +103,6 @@
     margin-left: 46px;
   }
 }
-.About.container {
+.about.container {
   padding: 0 15px;
 }
