@@ -1,21 +1,10 @@
-
 @import "../fonts/fonts.css";
 
-@import "blockHeader.css";
-@import "blockUbout.css";
-@import "blockPortfolio.css";
-@import "blockTestimonials.css";
-@import "blockCountProgresss.css";
-@import "blockText.css";
-@import "blockOurServices.css";
-@import "blockOurTeam.css";
-@import "blockBenefits.css";
-@import "blockPlans.css";
-@import "blockBlogMesseg.css";
-@import "blockFollowUs.css";
-@import "blockContactUs.css";
-@import "blockFormUser.css";
-@import "blockFooter.css";
+@import "Header_Top.css";
+@import "About.css";
+@import "Works.css";
+@import "Benfits.css";
+@import "Testimonials.css";
 
 *{
     padding: 0;
@@ -23,6 +12,7 @@
 }
 .container{
     max-width: 1200px !important;
+    margin: 0 auto;
 }
 .sub-title{
     font-family: 'Georgia';
@@ -31,15 +21,16 @@
     text-align: center;
     font-style: italic;
     line-height: 32px;
-    padding-top: 5px;
-    /*padding-bottom: 36px;*/
+    margin-top: 5px;
 }
 h4{
     font-family: 'Lato-Bold';
     font-size: 30px;
     color: rgba(51, 51, 51, 255);
     text-align: center;
+    margin-bottom: .0rem;
 }
-/*{*/
-/*box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);*/
-/*}*/
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+     margin-bottom: .0rem;
+}
