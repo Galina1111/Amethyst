@@ -17,7 +17,7 @@ jQuery(function ($) {
     });
 
     //слайдер
-    $('.your-class').slick({
+    $('.testimonials-logos-slider').slick({
         autoplay: true,
         autoplaySpeed: 2000,
         // speed: 1000,
@@ -25,5 +25,22 @@ jQuery(function ($) {
         infinite: true,
         arrows: true /*стрілки керування*/
     });
+
+    $('.js-services-slider').slick({
+        //autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 1,
+        infinite: true,
+        arrows: false, /*стрілки керування*/
+        dots: true,
+    });
+
+    $('.js-display-services a').click(function () {
+        $('.js-services-slider').slick('slickGoTo', $(this).index());
+        $(this).parent().find('a.active').removeClass('active');
+        $(this).addClass('active');
+        return false;
+    });
+
 
 });
