@@ -903,45 +903,45 @@ h6 {
 .our-team .container .card-body i:hover {
   color: #9966cc;
 }
-.skills .container {
-  margin-bottom: 55px;
+.skills {
+  margin-bottom: 40px;
 }
-.skills .container .sub-title {
+.skills .sub-title {
   margin-top: 10px;
 }
-.skills .container .info-rating {
+.skills .info-rating {
   display: grid;
   grid-template-columns: 50% 47%;
   grid-column-gap: 13px;
 }
-.skills .container .info-rating .info-text {
+.skills .info-rating .info-text {
   font-family: 'Lato-Regular';
   font-size: 14px;
   color: #999999;
   text-align: left;
 }
-.skills .container .info-rating .info-text p {
+.skills .info-rating .info-text p {
   margin-bottom: 9px;
 }
-.skills .container .info-rating .progress-info {
+.skills .info-rating .progress-info {
   display: grid;
   grid-template-rows: 66px 66px 66px 66px;
 }
-.skills .container .info-rating .progress-info p {
+.skills .info-rating .progress-info p {
   font-family: 'Lato-Bold';
   font-size: 17px;
   color: #333333;
   margin-bottom: 0rem;
   text-transform: uppercase;
 }
-.skills .container .info-rating .progress-info .progress-bar {
+.skills .info-rating .progress-info .progress-bar {
   background-color: #e3e3e3;
   border-radius: 4px;
   width: 100%;
   height: 12px;
   display: inline-block;
 }
-.skills .container .info-rating .progress-info .progress-bar .progress-value {
+.skills .info-rating .progress-info .progress-bar .progress-value {
   color: #ffffff;
   background: linear-gradient(49.25turn, #8f66b9 50%, #ca7f2f);
   transition: 0.3s all linear;
@@ -949,7 +949,7 @@ h6 {
   height: 12px;
   width: 28%;
 }
-.skills .container .info-rating .progress-info .progress-bar .progress-value span {
+.skills .info-rating .progress-info .progress-bar .progress-value span {
   color: black;
   float: right;
   margin-top: -29px;

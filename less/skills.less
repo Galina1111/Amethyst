@@ -1,53 +1,51 @@
 
 .skills {
-  .container {
-    margin-bottom: 55px;
-    .sub-title {
-      margin-top: 10px;
-    }
-    .info-rating {
-      display: grid;
-      grid-template-columns: 50% 47%;
-      grid-column-gap: 13px;
-      .info-text{
-        font-family:@font_family_3;
-        font-size: 14px;
-        color: @color_16;
-        text-align: left;
-        p{
-          margin-bottom: 9px;
-        }
+  margin-bottom: 40px;
+  .sub-title {
+    margin-top: 10px;
+  }
+  .info-rating {
+    display: grid;
+    grid-template-columns: 50% 47%;
+    grid-column-gap: 13px;
+    .info-text {
+      font-family: @font_family_3;
+      font-size: 14px;
+      color: @color_16;
+      text-align: left;
+      p {
+        margin-bottom: 9px;
       }
-      .progress-info {
-        display: grid;
-        grid-template-rows: 66px 66px 66px 66px;
-        p{
-          font-family: @font_family_2;
-          font-size: 17px;
-          color: @color_2;
-          margin-bottom: 0rem;
-          text-transform: uppercase;
-        }
-        .progress-bar{
-          background-color: @background_color_12;
+    }
+    .progress-info {
+      display: grid;
+      grid-template-rows: 66px 66px 66px 66px;
+      p {
+        font-family: @font_family_2;
+        font-size: 17px;
+        color: @color_2;
+        margin-bottom: 0rem;
+        text-transform: uppercase;
+      }
+      .progress-bar {
+        background-color: @background_color_12;
+        border-radius: 4px;
+        width: 100%;
+        height: 12px;
+        display: inline-block;
+        .progress-value {
+          color: @color_3;
+          background: linear-gradient(49.25turn, #8f66b9 50%, #ca7f2f);
+          transition: .3s all linear;
           border-radius: 4px;
-          width: 100%;
           height: 12px;
-          display: inline-block;
-          .progress-value{
-            color: @color_3;
-            background: linear-gradient(49.25turn, #8f66b9 50%, #ca7f2f);
-            transition: .3s all linear;
-            border-radius: 4px;
-            height: 12px;
-            width: 28%;
-            span{
-              color: @color_13;
-              float: right;
-              margin-top: -29px;
-              font-family: @font_family_2;
-              font-size: 16px;
-            }
+          width: 28%;
+          span {
+            color: @color_13;
+            float: right;
+            margin-top: -29px;
+            font-family: @font_family_2;
+            font-size: 16px;
           }
         }
       }
