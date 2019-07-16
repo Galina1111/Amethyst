@@ -956,4 +956,57 @@ h6 {
   font-family: 'Lato-Bold';
   font-size: 16px;
 }
+.video {
+  padding-bottom: 44px;
+}
+.pricing {
+  background-color: #333333;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.pricing h4 {
+  color: #ffffff;
+}
+.pricing .sub-title {
+  color: #cccccc;
+}
+.pricing .text {
+  font-family: 'Lato-Regular';
+  font-size: 15.5px;
+  color: #ffffff;
+  text-align: center;
+}
+.pricing .column-info {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 94px;
+}
+.pricing .column-info .picture {
+  width: 100px;
+  display: grid;
+  height: 105px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0 auto;
+  justify-content: center;
+}
+.pricing .column-info .picture img {
+  display: grid;
+  align-self: center;
+}
+.pricing .column-info .lorems {
+  font-family: 'Lato-Bold';
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.pricing .column-info .text {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
