@@ -22,27 +22,31 @@ h4 {
   color: #333333;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 h1 {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 h2 {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 h3 {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 h5 {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 h6 {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .header-top {
   background: linear-gradient(to bottom right, #8f66b9, #ca7f2f);
@@ -1144,6 +1148,7 @@ h6 {
 }
 .faq {
   margin-top: 65px;
+  padding-bottom: 65px;
 }
 .faq .accordions_tabs {
   display: grid;
@@ -1274,5 +1279,61 @@ h6 {
   color: #666666;
   list-style-type: circle;
   font-size: 11px;
+}
+.latest-blog-posts {
+  background-color: #f9f9f9;
+  padding-top: 38px;
+  padding-bottom: 20px;
+}
+.latest-blog-posts .blogs {
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-template-rows: auto;
+  grid-column-gap: 28px;
+  margin-top: 35px;
+}
+.latest-blog-posts .blogs .user_review {
+  text-align: center;
+}
+.latest-blog-posts .blogs .user_review .square {
+  height: 180px;
+  width: 270px;
+  background-color: #666666;
+}
+.latest-blog-posts .blogs .user_review .neme {
+  text-transform: uppercase;
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #333333;
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+.latest-blog-posts .blogs .user_review .blogs-data {
+  margin-bottom: -1px;
+  line-height: 1.9;
+}
+.latest-blog-posts .blogs .user_review span {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+}
+.latest-blog-posts .blogs .hr-two {
+  margin-top: 0px !important;
+}
+.latest-blog-posts .blogs .fa-file-alt {
+  padding-left: 12px;
+  color: #999999;
+}
+.latest-blog-posts .blogs .fa-comment {
+  padding-left: 12px;
+  color: #999999;
+}
+.latest-blog-posts .blogs .blogs-text {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #666666;
+  margin: 20px 4px;
+  line-height: 1.3;
 }
 /*# sourceMappingURL=main.css.map */
