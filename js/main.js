@@ -98,5 +98,11 @@ jQuery(function ($) {
     $(window).scroll(animat4);
 
 
+    $(".button a").click(function(event) {
+        $(".button a").removeClass("active");
+        $(this).addClass("active");
+    });
+
+
 
 });

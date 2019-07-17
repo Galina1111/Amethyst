@@ -510,7 +510,7 @@ h6 {
   text-transform: uppercase;
   font-family: 'Lato-Regular';
   font-size: 16px;
-  color: #333333;
+  color: #ffffff;
   text-align: center;
   padding: 30px 0 20px 0;
   font-weight: 200;
@@ -535,7 +535,7 @@ h6 {
 .benfits .tv span {
   font-weight: 900;
   font-size: 26px;
-  color: white;
+  color: #ffffff;
   display: grid;
   justify-content: center;
   transform: translateY(115%);
@@ -550,7 +550,7 @@ h6 {
 .benfits .cog span {
   font-weight: 900;
   font-size: 36px;
-  color: white;
+  color: #ffffff;
   display: grid;
   justify-content: center;
   transform: translateY(71%);
@@ -565,7 +565,7 @@ h6 {
 .benfits .star span {
   font-weight: 900;
   font-size: 36px;
-  color: white;
+  color: #ffffff;
   display: grid;
   justify-content: center;
   transform: translateY(71%);
@@ -959,29 +959,31 @@ h6 {
 .video {
   padding-bottom: 44px;
 }
-.pricing {
+.benefits {
   background-color: #333333;
+}
+.benefits .container {
   padding-top: 60px;
   padding-bottom: 50px;
 }
-.pricing h4 {
+.benefits .container h4 {
   color: #ffffff;
 }
-.pricing .sub-title {
+.benefits .container .sub-title {
   color: #cccccc;
 }
-.pricing .text {
+.benefits .container .text {
   font-family: 'Lato-Regular';
   font-size: 15.5px;
   color: #ffffff;
   text-align: center;
 }
-.pricing .column-info {
+.benefits .container .column-info {
   display: grid;
   grid-auto-flow: column;
   margin-top: 94px;
 }
-.pricing .column-info .picture {
+.benefits .container .column-info .picture {
   width: 100px;
   display: grid;
   height: 105px;
@@ -990,11 +992,11 @@ h6 {
   margin: 0 auto;
   justify-content: center;
 }
-.pricing .column-info .picture img {
+.benefits .container .column-info .picture img {
   display: grid;
   align-self: center;
 }
-.pricing .column-info .lorems {
+.benefits .container .column-info .lorems {
   font-family: 'Lato-Bold';
   font-size: 22px;
   color: #ffffff;
@@ -1002,11 +1004,142 @@ h6 {
   text-transform: uppercase;
   margin-top: 30px;
 }
-.pricing .column-info .text {
+.benefits .container .column-info .text {
   font-family: 'Lato-Regular';
   font-size: 16px;
   margin-top: 20px;
   color: #ffffff;
   text-align: center;
+}
+.pricing {
+  padding-top: 50px;
+}
+.pricing .sub-title {
+  margin-bottom: 0rem;
+}
+.pricing .button {
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: flex;
+  margin: 0 auto;
+  width: 190px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #cccccc;
+  margin-top: 25px;
+}
+.pricing .button a {
+  padding: 6px 12px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  text-align: center;
+  height: 32px;
+  border-radius: 20px;
+  width: 90px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.pricing .button a.active {
+  color: #ffffff;
+  background-color: #9966cc;
+}
+.pricing .cards {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+}
+.pricing .cards .card.border-success.mb-3 {
+  width: 370px;
+  height: 501px;
+  margin: 0 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pricing .cards .card.border-success.mb-3 h5 {
+  font-family: 'Lato-Regular';
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.pricing .cards .card.border-success.mb-3 .h-violet {
+  color: #9966cc;
+}
+.pricing .cards .card.border-success.mb-3 .h-dark-bay {
+  color: #bd7677;
+}
+.pricing .cards .card.border-success.mb-3 .h-orange {
+  color: #edb67a;
+}
+.pricing .cards .card.border-success.mb-3 .card-sub-title {
+  font-family: 'Lato-Bold';
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 0rem;
+}
+.pricing .cards .card.border-success.mb-3 .card-sub-title span {
+  font-size: 20px;
+}
+.pricing .cards .card.border-success.mb-3 .title-violet {
+  color: #9966cc;
+}
+.pricing .cards .card.border-success.mb-3 .title-dark-bay {
+  color: #bd7677;
+}
+.pricing .cards .card.border-success.mb-3 .title-orange {
+  color: #edb67a;
+}
+.pricing .cards .card.border-success.mb-3 .hr {
+  margin-top: 7px;
+  width: 235px;
+  display: grid;
+  align-self: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+.pricing .cards .card.border-success.mb-3 .hr-violet {
+  background-color: #9966cc;
+}
+.pricing .cards .card.border-success.mb-3 .hr-dark-bay {
+  background-color: #bd7677;
+}
+.pricing .cards .card.border-success.mb-3 .hr-orange {
+  background-color: #edb67a;
+}
+.pricing .cards .card.border-success.mb-3 button {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #999999;
+  background: none;
+  padding: 8px 16px;
+  border: 2px solid #999999;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-top: 31px;
+}
+.pricing .cards .card.border-success.mb-3 .btn-violet:hover {
+  border: 2px solid #9966cc;
+  color: #666666;
+}
+.pricing .cards .card.border-success.mb-3 .btn-dark-bay:hover {
+  border: 2px solid #bd7677;
+  color: #666666;
+}
+.pricing .cards .card.border-success.mb-3 .btn-orange:hover {
+  border: 2px solid #edb67a;
+  color: #666666;
+}
+.pricing .cards .card.border-success.mb-3 {
+  border-color: #cccccc !important;
+  margin-bottom: 0rem !important;
+}
+.pricing .cards .card.border-success.mb-3 .card-body {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #999999;
+  line-height: 1.3;
+  padding: 0;
+  margin-top: 17px;
+}
+.pricing .cards .card.border-success.mb-3 .card-body p {
+  margin-bottom: 14px;
 }
 /*# sourceMappingURL=main.css.map */
