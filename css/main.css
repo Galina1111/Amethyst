@@ -1142,4 +1142,137 @@ h6 {
 .pricing .cards .card.border-success.mb-3 .card-body p {
   margin-bottom: 14px;
 }
+.faq {
+  margin-top: 65px;
+}
+.faq .accordions_tabs {
+  display: grid;
+  grid-template-columns: 48.9% auto;
+  grid-column-gap: 26px;
+}
+.faq .accordion_gap {
+  margin-bottom: 20px;
+}
+.faq .accordions .accordion {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 7px 18px;
+  width: 100%;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 15px;
+  height: 40px;
+  border: 1px solid #9966cc;
+  border-radius: 6px;
+  font-family: 'Lato-Bold';
+  font-size: 16px;
+  color: #333333;
+  text-align: left;
+  line-height: 0.1;
+}
+.faq .accordions .accordion:after {
+  content: '\002B';
+  color: #e0e0e0;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 26px;
+}
+.faq .accordions .accordion:hover:after {
+  color: #9966cc;
+}
+.faq .accordions .active {
+  background-color: #9966cc;
+  color: #ffffff;
+}
+.faq .accordions .active:after {
+  content: "\2212";
+}
+.faq .accordions .panel {
+  padding: 0px 17px;
+  padding-top: 11px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #666666;
+  text-align: left;
+  border: 1px solid #9966cc;
+  margin: -27px 0 9px 0px;
+  border-top: none;
+  border-radius: 6px;
+}
+.faq .accordions .panel p {
+  margin-top: 8px;
+  margin-bottom: 0.5rem;
+}
+.faq .tabs .nav-tabs {
+  border-bottom: 1px solid #9966cc;
+}
+.faq .tabs .nav-tabs .nav-item {
+  margin-right: 3.8px;
+  height: 40px;
+  width: 188.1px;
+  margin-bottom: 1px;
+}
+.faq .tabs .nav-tabs .nav-item:last-child {
+  margin-right: 0px;
+}
+.faq .tabs .nav-tabs .nav-item .nav-link {
+  font-family: 'Lato-Bold';
+  font-size: 16px;
+  color: #ffffff;
+  text-align: left;
+  background-color: #9966cc;
+}
+.faq .tabs .nav-tabs .nav-item .nav-link.active {
+  background-color: #fff;
+  border-color: #9966cc #9966cc #ffffff;
+  font-family: 'Lato-Bold';
+  font-size: 16px;
+  color: black;
+  text-align: left;
+}
+.faq .tab-content #home,
+.faq .tab-content #menu1,
+.faq .tab-content #menu2 {
+  border: 1px solid #9966cc;
+  border-top: none;
+  height: 308px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.faq .tab-content #home p,
+.faq .tab-content #menu1 p,
+.faq .tab-content #menu2 p {
+  line-height: 1.3;
+}
+.faq .tab-content #home p,
+.faq .tab-content #menu1 p,
+.faq .tab-content #menu2 p,
+.faq .tab-content #home li,
+.faq .tab-content #menu1 li,
+.faq .tab-content #menu2 li {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #666666;
+  text-align: left;
+  padding: 0 4px;
+}
+.faq .tab-content #home li,
+.faq .tab-content #menu1 li,
+.faq .tab-content #menu2 li {
+  list-style-type: none;
+  margin-top: 0px;
+}
+.faq .tab-content #home li::before,
+.faq .tab-content #menu1 li::before,
+.faq .tab-content #menu2 li::before {
+  content: "ⵔ";
+  padding-right: 6px;
+  color: #666666;
+  list-style-type: circle;
+  font-size: 11px;
+}
 /*# sourceMappingURL=main.css.map */
