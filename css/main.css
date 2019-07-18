@@ -1424,4 +1424,55 @@ hr {
 .subscribe .social-networks .gooleImg {
   width: 29px;
 }
+.contact {
+  background-color: #ffffff;
+  padding-top: 50px;
+}
+.contact .sub-title {
+  margin-top: 8px;
+}
+.contact .contacts-list {
+  display: grid;
+  grid-template-columns: 177px 177px 177px;
+  justify-content: center;
+  grid-column-gap: 47px;
+  margin-bottom: 10px;
+}
+.contact .contacts-list .street {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  line-height: 2.3;
+}
+.contact .contacts-list .street .fa-map-marker-alt {
+  padding-right: 10px;
+}
+.contact .contacts-list .number {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  line-height: 2.3;
+}
+.contact .contacts-list .number .fa-mobile-alt {
+  padding-right: 10px;
+  font-size: 12px;
+}
+.contact .contacts-list .emel {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  line-height: 2.3;
+}
+.contact .contacts-list .emel .fa-envelope-o {
+  padding-right: 10px;
+  font-size: 14px;
+}
+.maps iframe {
+  height: 400px;
+  width: 100%;
+  border: 0;
+}
 /*# sourceMappingURL=main.css.map */
