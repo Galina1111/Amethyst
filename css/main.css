@@ -1400,7 +1400,7 @@ hr {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  /*border: 2px dashed #000;*/
+  box-shadow: 0 0 15px #9966cc;
   border: 2px dashed #e1e1e1;
   -webkit-animation-name: Rotate;
   -webkit-animation-duration: 2s;
@@ -1436,7 +1436,7 @@ hr {
   grid-template-columns: 177px 177px 177px;
   justify-content: center;
   grid-column-gap: 47px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .contact .contacts-list .street {
   font-family: 'Lato-Regular';
@@ -1470,9 +1470,67 @@ hr {
   padding-right: 10px;
   font-size: 14px;
 }
-.maps iframe {
+.contact .maps iframe {
   height: 400px;
   width: 100%;
   border: 0;
+}
+.contact .user-form {
+  margin: 0 auto;
+  background-color: #fff;
+  padding-top: 30px;
+}
+.contact .user-form h6 {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+.contact .user-form .form-control {
+  color: #ced4da;
+  height: 35px;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #cccccc;
+  text-align: left;
+  border: 1px solid #ced4da;
+}
+.contact .user-form .form-control:hover {
+  box-shadow: 0 0 15px 2px rgba(156, 39, 176, 0.17);
+}
+.contact .user-form form {
+  margin-top: 27px;
+  margin-bottom: 65px;
+}
+.contact .user-form form .form-row > .col {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.contact .user-form form .form-row.justify-content-md-center {
+  margin-bottom: 16px;
+}
+.contact .user-form form .textHei {
+  height: 113px !important;
+}
+.contact .user-form button {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase !important;
+  background-color: #fff;
+  border: 2px solid #9966cc;
+  width: 150px;
+  height: 41px;
+  border-radius: 54px;
+  margin-top: 10px;
+}
+.contact .user-form button:hover {
+  background-color: #9966cc;
+  color: white;
+}
+.form-row > [class*=col-] {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */
