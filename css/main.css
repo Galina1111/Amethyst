@@ -1631,4 +1631,56 @@ hr {
 .footer .my-4 {
   margin-bottom: 0rem !important;
 }
+.footer .container .bottom-info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
+}
+.footer .container .bottom-info .copyright {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  color: #999999;
+  text-align: left;
+  margin-bottom: 0rem !important;
+}
+.footer .container .bottom-info .copyright:before {
+  content: "© ";
+  font-size: 17px;
+}
+.footer .container .bottom-info .icons-footer {
+  text-align: end;
+}
+.footer .container .bottom-info .icons-footer .fa-linkedin-in {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0 3px;
+}
+.footer .container .bottom-info .icons-footer .fa-linkedin-in:hover {
+  color: #9966cc;
+}
+.footer .container .bottom-info .icons-footer .fa-facebook-square {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0 3px;
+}
+.footer .container .bottom-info .icons-footer .fa-facebook-square:hover {
+  color: #9966cc;
+}
+.footer .container .bottom-info .icons-footer .fa-google-plus {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0 3px;
+}
+.footer .container .bottom-info .icons-footer .fa-google-plus:hover {
+  color: #9966cc;
+}
+.footer .container .bottom-info .icons-footer .fa-twitter {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0 0px 0 1px;
+}
+.footer .container .bottom-info .icons-footer .fa-twitter:hover {
+  color: #9966cc;
+}
 /*# sourceMappingURL=main.css.map */
