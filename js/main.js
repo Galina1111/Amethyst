@@ -122,4 +122,17 @@ jQuery(function ($) {
 
         });
     };
+
+
+    // $(".nav-item a").click(function(event) {
+    //     $(".nav-item a").removeClass("active");
+    //     $(this).addClass("active");
+    // });
+
+    $('.icon').click(function (){
+        $('.icon').toggleClass('active');
+        $('.nav').toggle();
+    });
+
+
 });
