@@ -1720,6 +1720,40 @@ hr {
 .video {
   padding-bottom: 44px;
 }
+.video .container iframe {
+  width: 100%;
+  height: 635px;
+}
+@media screen and (max-width: 900px) {
+  .video .container iframe {
+    height: 563px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .video .container iframe {
+    height: 509px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .video .container iframe {
+    height: 485px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .video .container iframe {
+    height: 444px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .video .container iframe {
+    height: 385px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .video .container iframe {
+    height: 320px;
+  }
+}
 .benefits {
   background-color: #333333;
 }
