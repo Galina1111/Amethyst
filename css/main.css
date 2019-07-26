@@ -1670,6 +1670,11 @@ hr {
   grid-template-columns: 50% 47%;
   grid-column-gap: 13px;
 }
+@media screen and (max-width: 610px) {
+  .skills .info-rating {
+    grid-template-columns: auto;
+  }
+}
 .skills .info-rating .info-text {
   font-family: 'Lato-Regular';
   font-size: 14px;
