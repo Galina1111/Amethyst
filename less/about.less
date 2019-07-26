@@ -1,6 +1,9 @@
 .about {
   background-color: @background_color_7;
   margin-top: 63px;
+  & .container {
+    padding: 0 15px;
+  }
   .container {
     h5 {
       color: @color_12;
@@ -94,6 +97,10 @@
         color: #fffeff;
         background-color: @color_14;
       }
+      @media screen  and (max-width: 500px){
+      margin: 34px 63px;
+        padding: 5px 22px;
+    }
     }
   }
   ul {
@@ -101,8 +108,18 @@
     width: 45%;
     position: relative;
     margin-left: 46px;
+    @media screen  and (max-width: 600px){
+      width: 70%;
+    }
+    @media screen  and (max-width: 500px){
+      width: 70%;
+      margin-left: 68px;
+    }
+    @media screen  and (max-width: 400px){
+      width: 80%;
+    }
+    @media screen  and (max-width: 370px){
+      margin-left: 50px;
+    }
   }
-}
-.about.container {
-  padding: 0 15px;
 }

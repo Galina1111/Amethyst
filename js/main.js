@@ -12,6 +12,7 @@ jQuery(function ($) {
         var selector = $(this).attr('data-filter');
         $container.isotope({
             filter: selector,
+
         });
         return false;
     });
@@ -23,7 +24,56 @@ jQuery(function ($) {
         // speed: 1000,
         slidesToShow: 6,
         infinite: true,
-        arrows: true /*стрілки керування*/
+        arrows: true, /*стрілки керування*/
+
+        responsive: [{
+            breakpoint: 1289,
+            settings: {
+                slidesToShow: 5,
+                infinite: true,
+                dots: false
+            }
+        }, {
+            breakpoint: 1250,
+            settings: {
+                slidesToShow: 5,
+                arrows: false
+            }
+        },{
+            breakpoint: 950,
+            settings: {
+                slidesToShow: 4,
+                arrows: false,
+                mobileFirst: true,
+                //
+                // variableWidth: true,
+            }
+        }, {
+            breakpoint: 730,
+            settings: {
+                slidesToShow: 3,
+                arrows: false,
+                mobileFirst: true,
+
+            }
+        },{
+            breakpoint: 570,
+            settings: {
+                slidesToShow: 2,
+                arrows: false,
+                mobileFirst: true,
+                width:20
+            }
+        },{
+            breakpoint: 410,
+            settings: {
+                slidesToShow: 1,
+                arrows: false,
+                mobileFirst: true,
+                width:20
+            }
+        }
+        ]
     });
 
     $('.js-services-slider').slick({
@@ -129,9 +179,15 @@ jQuery(function ($) {
     //     $(this).addClass("active");
     // });
 
-    $('.icon').click(function (){
-        $('.icon').toggleClass('active');
-        $('.nav').toggle();
+    $('.icon').click(function () {
+        if ($(window).width() <= 700) {
+            $('.icon').toggleClass('active');
+            $('.nav').toggle();
+        } else if($(window).width() > 700) {
+            $('#nav-menu').css('display', 'flex');
+            $('#nav-menu').show();
+
+        }
     });
 
 

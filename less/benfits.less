@@ -1,19 +1,33 @@
 
-
 .benfits {
   background-color: @background_color_5;
   .set {
     display: flex;
     justify-content: center;
+    @media screen  and (max-width: 991px){
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    @media screen  and (max-width: 540px){
+      display: grid;
+      grid-template-columns: 75%;
+    }
+    @media screen  and (max-width: 400px){
+      grid-template-columns: 80%;
+    }
+    @media screen  and (max-width: 350px){
+      grid-template-columns: 100%;
+    }
     .blok {
       h6 {
         text-transform: uppercase;
         font-family: @font_family_3;
         font-size: 16px;
-        color: @color_8;
+        color: @color_2;
         text-align: center;
         padding: 30px 0 20px 0;
         font-weight: 200;
+
       }
       p {
         font-family: @font_family_3;
@@ -26,6 +40,9 @@
   .blok {
     position: relative;
     margin: 65px 20px;
+    @media screen  and (max-width: 540px){
+      margin: 40px 20px;
+    }
   }
   .tv {
     width: 90px;
