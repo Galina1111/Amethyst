@@ -1,8 +1,16 @@
 
 .pricing {
   padding-top: 50px;
+  h4{
+    @media screen and (max-width: 768px){
+      font-size: 28px;
+    }
+  }
   .sub-title {
     margin-bottom: 0rem;
+    @media screen and (max-width: 768px){
+      font-size: 15px;
+    }
   }
   .button {
     padding-top: 2px;
@@ -35,12 +43,20 @@
     display: flex;
     margin-top: 40px;
     text-align: center;
+    @media screen and (max-width: 768px){
+      margin: 40px auto;
+      display: block;
+      padding: 0 20px;
+    }
     .card.border-success.mb-3 {
       width: 370px;
       height: 501px;
       margin: 0 15px;
       padding-top: 40px;
       padding-bottom: 40px;
+      @media screen and (max-width: 410px){
+        width: 100%;
+      }
       h5 {
         font-family: @font_family_3;
         font-size: 22px;
@@ -75,7 +91,7 @@
       }
       .hr {
         margin-top: 7px;
-        width: 235px;
+        width: 75%;
         display: grid;
         align-self: center;
         border-top: 2px solid rgba(0, 0, 0, .1);
@@ -117,6 +133,9 @@
     .card.border-success.mb-3 {
       border-color: @border_color_1 !important;
       margin-bottom: 0rem !important;
+      @media screen and (max-width: 768px){
+        margin: 30px auto;
+      }
       .card-body {
         font-family: @font_family_3;
         font-size: 16px;
