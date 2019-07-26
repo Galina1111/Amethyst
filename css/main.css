@@ -1778,7 +1778,25 @@ hr {
   grid-auto-flow: column;
   margin-top: 94px;
 }
-.benefits .container .column-info .picture {
+@media screen and (max-width: 700px) {
+  .benefits .container .column-info {
+    grid-auto-flow: dense;
+    grid-template-columns: 90%;
+    justify-content: center;
+    margin-top: 84px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .benefits .container .column-info > div {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .benefits .container .column-info > div {
+    padding: 27px 10px;
+  }
+}
+.benefits .container .column-info > div .picture {
   width: 100px;
   display: grid;
   height: 105px;
@@ -1787,7 +1805,7 @@ hr {
   margin: 0 auto;
   justify-content: center;
 }
-.benefits .container .column-info .picture img {
+.benefits .container .column-info > div .picture img {
   display: grid;
   align-self: center;
 }
