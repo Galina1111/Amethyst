@@ -2402,13 +2402,44 @@ hr {
   grid-column-gap: 28px;
   margin-top: 35px;
 }
+@media screen and (max-width: 1215px) {
+  .latest-blog-posts .blogs {
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .latest-blog-posts .blogs {
+    grid-template-columns: 40% 40%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .latest-blog-posts .blogs {
+    grid-template-columns: 55%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .latest-blog-posts .blogs {
+    grid-template-columns: 65%;
+  }
+}
 .latest-blog-posts .blogs .user_review {
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .latest-blog-posts .blogs .user_review {
+    margin-bottom: 30px;
+  }
 }
 .latest-blog-posts .blogs .user_review .square {
   height: 180px;
   width: 270px;
   background-color: #666666;
+}
+@media screen and (max-width: 1215px) {
+  .latest-blog-posts .blogs .user_review .square {
+    width: 100%;
+  }
 }
 .latest-blog-posts .blogs .user_review .neme {
   text-transform: uppercase;
