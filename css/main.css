@@ -2521,6 +2521,11 @@ hr {
   grid-column-gap: 22px;
   margin-top: 37px;
 }
+@media screen and (max-width: 350px) {
+  .subscribe .social-networks {
+    grid-column-gap: 15px;
+  }
+}
 .subscribe .social-networks a.social-network {
   display: grid;
   justify-items: center;
@@ -2533,6 +2538,18 @@ hr {
   width: 60px;
   position: absolute;
   bottom: 13%;
+}
+@media screen and (max-width: 453px) {
+  .subscribe .social-networks span {
+    position: absolute;
+    bottom: 11%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .subscribe .social-networks span {
+    position: absolute;
+    bottom: 11%;
+  }
 }
 .subscribe .social-networks span:hover {
   height: 60px;

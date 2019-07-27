@@ -34,6 +34,9 @@
     grid-template-columns: 60px 60px 60px 60px;
     grid-column-gap: 22px;
     margin-top: 37px;
+    @media screen and (max-width: 350px){
+      grid-column-gap: 15px;
+    }
     a.social-network {
       display: grid;
       justify-items: center;
@@ -51,6 +54,14 @@
       width: 60px;
       position: absolute;
       bottom: 13%;
+      @media screen and (max-width: 453px){
+        position: absolute;
+        bottom: 11%;
+      }
+      @media screen and (max-width: 350px){
+        position: absolute;
+        bottom: 11%;
+      }
       &:hover {
         height: 60px;
         width: 60px;
@@ -84,7 +95,5 @@
   }
 
 }
-
-
 
 
