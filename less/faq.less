@@ -7,6 +7,26 @@
     grid-template-columns: 48.9% auto;
     grid-column-gap: 26px;
     //padding: 0 18px 57px 0;
+    @media screen and (max-width: 991px){
+      grid-template-columns: 500px;
+      justify-content: center;
+    }
+    @media screen and (max-width: 550px){
+      grid-template-columns: 450px;
+    }
+    @media screen and (max-width: 490px){
+      grid-template-columns: 400px;
+    }
+    @media screen and (max-width: 450px){
+      grid-template-columns: 350px;
+    }
+    @media screen and (max-width: 400px){
+      grid-template-columns: 300px;
+    }
+    @media screen and (max-width: 335px){
+      grid-template-columns: 250px;
+    }
+
   }
   .accordion_gap {
     margin-bottom: 20px;
@@ -35,11 +55,96 @@
         float: right;
         margin-left: 5px;
         font-size: 26px;
-      }
+          @media screen and (max-width: 490px) {
+          content: '\002B';
+          margin-left: 0px;
+          font-size: 26px;
+          position: absolute;
+          right: 9%;
+         }
+        @media screen and (max-width: 477px) {
+          position: absolute;
+          right: 8%;
+        }
+        @media screen and (max-width: 462px) {
+          position: absolute;
+          right: 7%;
+        }
+        @media screen and (max-width: 455px) {
+          position: absolute;
+          right: 7%;
+        }
+        @media screen and (max-width: 450px) {
+          position: absolute;
+          right: 12%;
+        }
+        @media screen and (max-width: 444px) {
+          position: absolute;
+          right: 11%;
+        }
+        @media screen and (max-width: 432px) {
+          position: absolute;
+          right: 10%;
+        }
+        @media screen and (max-width: 420px) {
+          position: absolute;
+          right: 9%;
+        }
+        @media screen and (max-width: 410px) {
+          position: absolute;
+          right: 8%;
+        }
+        @media screen and (max-width: 405px) {
+          position: absolute;
+          right: 7%;
+        }
+        @media screen and (max-width: 400px){
+          position: absolute;
+          right: 13%;
+        }
+        @media screen and (max-width: 387px){
+          position: absolute;
+          right: 12%;
+        }
+        @media screen and (max-width: 378px){
+          position: absolute;
+          right: 11%;
+        }
+        @media screen and (max-width: 366px){
+          position: absolute;
+          right: 10%;
+        }
+        @media screen and (max-width: 360px){
+          position: absolute;
+          right: 9%;
+        }
+        @media screen and (max-width: 350px){
+          position: absolute;
+          right: 8%;
+        }
+        @media screen and (max-width: 340px){
+          position: absolute;
+          right: 7%;
+        }
+        @media screen and (max-width: 335px){
+          position: absolute;
+          right: 12%;
+        }
+    }
+
       &:hover {
         &:after {
           color: @color_10;
         }
+      }
+      @media screen and (max-width: 550px){
+        font-size: 15px;
+      }
+      @media screen and (max-width: 490px){
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 7px 30px 0 18px;
       }
     }
     .active {
@@ -80,12 +185,76 @@
         &:last-child {
           margin-right: 0px;
         }
+        @media screen and (max-width: 1216px){
+        width: 32.88%;
+      }
+        @media screen and (max-width: 1185px){
+          width: 32.879%
+        }
+        @media screen and (max-width: 1183px){
+          width: 32.87%
+        }
+        @media screen and (max-width: 1162px){
+          width: 32.86%
+        }
+        @media screen and (max-width: 1141px){
+          width: 32.85%
+        }
+        @media screen and (max-width: 1120px){
+          width: 32.8%
+        }
+        @media screen and (max-width: 1099px){
+          width: 32.8%
+        }
+        @media screen and (max-width: 1079px){
+          width: 32.82%
+        }
+        @media screen and (max-width: 1060px){
+          width: 32.81%
+        }
+        @media screen and (max-width: 1040px){
+          width: 32.8%
+        }
+        @media screen and (max-width: 1022px){
+          width: 32.78%
+        }
+        @media screen and (max-width: 1003px){
+          width: 32.75%
+        }
+        @media screen and (max-width: 991px){
+          width: 32.799%
+        }
+        @media screen and (max-width: 550px){
+          width: 32.76%;
+        }
+        @media screen and (max-width: 490px){
+          width: 32.7%;
+        }
+        @media screen and (max-width: 450px){
+          width: 32.6%;
+        }
+        @media screen and (max-width: 400px){
+          width: 32.29%;
+        }
+
         .nav-link {
           font-family: @font_family_2;
           font-size: 16px;
           color: @color_3;
           text-align: left;
           background-color: @background_color_6;
+          @media screen and (max-width: 991px){
+            padding: .5rem 0px .5rem 8px;
+          }
+          @media screen and (max-width: 400px){
+            font-size: 15px;
+            text-align: center;
+            padding: 8px 0px 8px 2px;
+          }
+          @media screen and (max-width: 335px){
+            font-size: 13px;
+            padding: 10px 0px 10px 2px;
+        }
         }
         .nav-link.active {
           background-color: @background_color_3;
@@ -94,6 +263,10 @@
           font-size: 16px;
           color: @color_13;
           text-align: left;
+          @media screen and (max-width: 335px) {
+            font-size: 13px;
+            padding: 11px 0px 10px 2px;
+          }
         }
       }
     }
@@ -108,6 +281,9 @@
       height: 308px;
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px;
+      @media screen and (max-width: 1022px){
+        height: auto;
+      }
 p{
   line-height: 1.3;
 }

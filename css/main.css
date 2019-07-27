@@ -1991,6 +1991,37 @@ hr {
   grid-template-columns: 48.9% auto;
   grid-column-gap: 26px;
 }
+@media screen and (max-width: 991px) {
+  .faq .accordions_tabs {
+    grid-template-columns: 500px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .faq .accordions_tabs {
+    grid-template-columns: 450px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .faq .accordions_tabs {
+    grid-template-columns: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq .accordions_tabs {
+    grid-template-columns: 350px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .faq .accordions_tabs {
+    grid-template-columns: 300px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .faq .accordions_tabs {
+    grid-template-columns: 250px;
+  }
+}
 .faq .accordion_gap {
   margin-bottom: 20px;
 }
@@ -2019,8 +2050,132 @@ hr {
   margin-left: 5px;
   font-size: 26px;
 }
+@media screen and (max-width: 490px) {
+  .faq .accordions .accordion:after {
+    content: '\002B';
+    margin-left: 0px;
+    font-size: 26px;
+    position: absolute;
+    right: 9%;
+  }
+}
+@media screen and (max-width: 477px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 8%;
+  }
+}
+@media screen and (max-width: 462px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 7%;
+  }
+}
+@media screen and (max-width: 455px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 7%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 12%;
+  }
+}
+@media screen and (max-width: 444px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 11%;
+  }
+}
+@media screen and (max-width: 432px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 10%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 9%;
+  }
+}
+@media screen and (max-width: 410px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 8%;
+  }
+}
+@media screen and (max-width: 405px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 7%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 13%;
+  }
+}
+@media screen and (max-width: 387px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 12%;
+  }
+}
+@media screen and (max-width: 378px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 11%;
+  }
+}
+@media screen and (max-width: 366px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 10%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 9%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 8%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 7%;
+  }
+}
+@media screen and (max-width: 335px) {
+  .faq .accordions .accordion:after {
+    position: absolute;
+    right: 12%;
+  }
+}
 .faq .accordions .accordion:hover:after {
   color: #9966cc;
+}
+@media screen and (max-width: 550px) {
+  .faq .accordions .accordion {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .faq .accordions .accordion {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 7px 30px 0 18px;
+  }
 }
 .faq .accordions .active {
   background-color: #9966cc;
@@ -2060,12 +2215,115 @@ hr {
 .faq .tabs .nav-tabs .nav-item:last-child {
   margin-right: 0px;
 }
+@media screen and (max-width: 1216px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.88%;
+  }
+}
+@media screen and (max-width: 1185px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.879%;
+  }
+}
+@media screen and (max-width: 1183px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.87%;
+  }
+}
+@media screen and (max-width: 1162px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.86%;
+  }
+}
+@media screen and (max-width: 1141px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.85%;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.8%;
+  }
+}
+@media screen and (max-width: 1099px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.8%;
+  }
+}
+@media screen and (max-width: 1079px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.82%;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.81%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.8%;
+  }
+}
+@media screen and (max-width: 1022px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.78%;
+  }
+}
+@media screen and (max-width: 1003px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.75%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.799%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.76%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.7%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.6%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .faq .tabs .nav-tabs .nav-item {
+    width: 32.29%;
+  }
+}
 .faq .tabs .nav-tabs .nav-item .nav-link {
   font-family: 'Lato-Bold';
   font-size: 16px;
   color: #ffffff;
   text-align: left;
   background-color: #9966cc;
+}
+@media screen and (max-width: 991px) {
+  .faq .tabs .nav-tabs .nav-item .nav-link {
+    padding: 0.5rem 0px 0.5rem 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .faq .tabs .nav-tabs .nav-item .nav-link {
+    font-size: 15px;
+    text-align: center;
+    padding: 8px 0px 8px 2px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .faq .tabs .nav-tabs .nav-item .nav-link {
+    font-size: 13px;
+    padding: 10px 0px 10px 2px;
+  }
 }
 .faq .tabs .nav-tabs .nav-item .nav-link.active {
   background-color: #fff;
@@ -2074,6 +2332,12 @@ hr {
   font-size: 16px;
   color: black;
   text-align: left;
+}
+@media screen and (max-width: 335px) {
+  .faq .tabs .nav-tabs .nav-item .nav-link.active {
+    font-size: 13px;
+    padding: 11px 0px 10px 2px;
+  }
 }
 .faq .tab-content {
   margin-top: -2px;
@@ -2086,6 +2350,13 @@ hr {
   height: 308px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+@media screen and (max-width: 1022px) {
+  .faq .tab-content #home,
+  .faq .tab-content #menu1,
+  .faq .tab-content #menu2 {
+    height: auto;
+  }
 }
 .faq .tab-content #home p,
 .faq .tab-content #menu1 p,
