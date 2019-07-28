@@ -2705,6 +2705,11 @@ hr {
   background-color: #9966cc;
   color: white;
 }
+@media screen and (max-width: 767px) {
+  .contact .user-form button {
+    margin: 10px auto;
+  }
+}
 .form-row > [class*=col-] {
   padding-right: 15px;
   padding-left: 15px;
