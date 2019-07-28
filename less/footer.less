@@ -9,7 +9,6 @@
     color: @color_20;
     text-align: left;
     text-transform: uppercase;
-
   }
   .info-text-footer {
     margin-top: 43px;
@@ -64,6 +63,9 @@
       border: 2px solid #9966cc;
       background-color: @background_color_18;
       margin-top: 40px;
+      @media screen and (max-width: 767px) {
+        margin-bottom: 64px;
+      }
     }
     .anchor {
       background-color: @background_color_19;
@@ -76,6 +78,59 @@
       &:hover {
         //box-shadow: 0 0 15px #9966cc;
       }
+      @media screen and (max-width: 1807px) {
+        left: 154%;
+      }
+      @media screen and (max-width: 1740px) {
+        left: 144%;
+      }
+      @media screen and (max-width: 1685px) {
+        left: 135%;
+      }
+      @media screen and (max-width: 1615px) {
+        left: 127%;
+      }
+      @media screen and (max-width: 1560px) {
+        left: 118%;
+      }
+      @media screen and (max-width: 1500px) {
+        left: 109%;
+      }
+      @media screen and (max-width: 1415px) {
+        left: 102%;
+      }
+      @media screen and (max-width: 1360px) {
+        left: 88%;
+      }
+      @media screen and (max-width: 1199px) {
+        left: 80%;
+        bottom: 35px;
+      }
+      @media screen and (max-width: 1088px) {
+        bottom: 52px;
+      }
+      @media screen and (max-width: 969px) {
+        bottom: 70px;
+      }
+      @media screen and (max-width: 943px) {
+        bottom: 88px;
+      }
+      @media screen and (max-width: 970px) {
+        bottom: 107px;
+      }
+      @media screen and (max-width: 790px) {
+        bottom: 123px;
+      }
+      @media screen and (max-width: 772px) {
+        bottom: 107px;
+      }
+      @media screen and (max-width: 767px) {
+        left: 89%;
+        bottom: 27px;
+      }
+      @media screen and (max-width: 480px) {
+        left: 85%;
+      }
     }
     .fa-angle-double-up {
       font-size: 22px;
@@ -85,6 +140,12 @@
       &:hover {
         color: @color_14;
       }
+      @media screen and (max-width: 767px) {
+        transform: translate(0px, 6px);
+      }
+      @media screen and (max-width: 460px) {
+        transform: translate(9px, 6px);
+      }
     }
   }
   hr {
@@ -92,21 +153,20 @@
     margin-top: 0rem;
     margin-bottom: 0rem;
   }
-  .mt-5, .my-5 {
-    margin-top: 0rem !important;
+  .col-10 {
+    padding-bottom: 27px;
   }
-  .mt-3, .my-3 {
-    margin-top: 0rem !important;
-  }
-  .mb-4, .my-4 {
-    margin-bottom: 0rem !important;
-  }
-  .container{
+  .container {
     .bottom-info {
       display: grid;
       grid-template-columns: 50% 50%;
       padding-top: 22.5px;
       padding-bottom: 22.5px;
+      @media screen and (max-width: 400px) {
+        grid-template-columns: 60%;
+        justify-content: center;
+        justify-items: center;
+      }
       .copyright {
         font-family: @font_family_3;
         font-size: 14px;
@@ -120,7 +180,9 @@
       }
       .icons-footer {
         text-align: end;
-        //padding: 18px 6px;
+        @media screen and (max-width: 400px) {
+          padding-top: 7px;
+        }
         .fa-linkedin-in {
           color: @color_3;
           font-size: 20px;
@@ -156,8 +218,6 @@
 
       }
     }
-
-
   }
 
 }
@@ -165,12 +225,7 @@
 
 
 
-  //input {
-  //  &:focus {
-  //    outline-offset: -2px;
-  //    outline: -webkit-focus-ring-color auto 0px;
-  //  }
-  //}
+
 
 
 
