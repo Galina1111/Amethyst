@@ -2,6 +2,11 @@
 .contact {
   background-color: @background_color_7;
   padding-top: 50px;
+  h4 {
+    @media screen and (max-width: 520px) {
+      font-size: 28px;
+    }
+  }
   .sub-title {
     margin-top: 8px;
   }
@@ -11,6 +16,16 @@
     justify-content: center;
     grid-column-gap: 47px;
     margin-bottom: 16px;
+    @media screen and (max-width: 660px) {
+      grid-column-gap: 20px;
+    }
+    @media screen and (max-width: 600px) {
+      grid-template-columns: auto auto auto;
+      grid-column-gap: 26px;
+    }
+    @media screen and (max-width: 520px) {
+      grid-template-columns: auto;
+    }
     .street {
       font-family: @font_family_3;
       font-size: 14px;
@@ -51,7 +66,7 @@
       border: 0;
     }
   }
-  .user-form{
+  .user-form {
     margin: 0 auto;
     background-color: @background_color_3;
     padding-top: 30px;
@@ -77,7 +92,7 @@
       margin-top: 27px;
       margin-bottom: 65px;
       .form-row {
-        >.col {
+        > .col {
           padding-right: 15px;
           padding-left: 15px;
         }
@@ -109,8 +124,9 @@
     }
   }
 }
+
 .form-row {
-  >[class*=col-] {
+  > [class*=col-] {
     padding-right: 15px;
     padding-left: 15px;
   }
