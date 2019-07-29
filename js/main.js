@@ -3,6 +3,7 @@ jQuery(function ($) {
     var $container = $('.works .posts');
     $container.isotope({
         filter: '*',
+        sortBy: 'symbol'
     });
 
     $('.works .toggles a').click(function () {

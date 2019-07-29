@@ -32,13 +32,10 @@
     margin-top: 16px;
   }
   .sub-title {
-    font-family: @font_family_1;
-    font-size: 16px;
-    color: @color_1;
-    text-align: center;
-    font-style: italic;
-    line-height: 32px;
     margin-top: 12px;
+    @media screen and (max-width: 615px){
+      padding: 0 25px;
+    }
   }
   .toggles {
     margin-top: 23px;
@@ -56,6 +53,17 @@
       &:hover {
         box-shadow: 0 0 13px 1px rgba(0, 0, 0, 0.2);
       }
+      @media screen and (max-width: 440px){
+        margin: 6px 5px;
+      }
+      @media screen and (max-width: 400px){
+      margin: 6px 0px;
+    }
+      @media screen and (max-width: 350px){
+        font-size: 14px;
+        padding: 6px 13px;
+
+      }
     }
     a.active {
       color: @color_10;
@@ -65,10 +73,25 @@
     width: 100%;
     margin: 34px 0 0 0;
     .post {
-      width: 317px;
+      width: 16.6667%;
       height: 213px;
       position: relative;
       background-color: @background_color_6;
+      @media screen and (max-width: 1400px){
+        width: 20%;
+      }
+      @media screen and (max-width: 1050px){
+        width: 25%;
+      }
+      @media screen and (max-width: 870px){
+        width: 33.33%;
+      }
+      @media screen and (max-width: 635px){
+        width: 50%;
+      }
+      @media screen and (max-width: 423px){
+        width: 100%;
+      }
       img {
         width: 100%;
         height: 100%;
@@ -108,6 +131,9 @@
         color: @color_19;
         text-align: center;
         padding: 0 42px;
+        @media screen and (max-width: 1100px){
+          padding: 0 6px;
+        }
       }
     }
     .urban {
@@ -124,6 +150,10 @@
         color: @color_19;
         text-align: center;
         padding: 0 42px;
+        padding: 0 42px;
+        @media screen and (max-width: 1100px){
+          padding: 0 6px;
+        }
       }
     }
     .posters {
@@ -140,6 +170,10 @@
         color: @color_19;
         text-align: center;
         padding: 0 42px;
+        padding: 0 42px;
+        @media screen and (max-width: 1100px){
+          padding: 0 6px;
+        }
       }
     }
   }

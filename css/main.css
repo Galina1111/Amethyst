@@ -912,13 +912,12 @@ hr {
   margin-top: 16px;
 }
 .works .sub-title {
-  font-family: 'Georgia';
-  font-size: 16px;
-  color: #666666;
-  text-align: center;
-  font-style: italic;
-  line-height: 32px;
   margin-top: 12px;
+}
+@media screen and (max-width: 615px) {
+  .works .sub-title {
+    padding: 0 25px;
+  }
 }
 .works .toggles {
   margin-top: 23px;
@@ -938,6 +937,22 @@ hr {
 .works .toggles a:hover {
   box-shadow: 0 0 13px 1px rgba(0, 0, 0, 0.2);
 }
+@media screen and (max-width: 440px) {
+  .works .toggles a {
+    margin: 6px 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .works .toggles a {
+    margin: 6px 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .works .toggles a {
+    font-size: 14px;
+    padding: 6px 13px;
+  }
+}
 .works .toggles a.active {
   color: #9966cc;
 }
@@ -946,10 +961,35 @@ hr {
   margin: 34px 0 0 0;
 }
 .works .posts .post {
-  width: 317px;
+  width: 16.6667%;
   height: 213px;
   position: relative;
   background-color: #9966cc;
+}
+@media screen and (max-width: 1400px) {
+  .works .posts .post {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .works .posts .post {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .works .posts .post {
+    width: 33.33%;
+  }
+}
+@media screen and (max-width: 635px) {
+  .works .posts .post {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 423px) {
+  .works .posts .post {
+    width: 100%;
+  }
 }
 .works .posts .post img {
   width: 100%;
@@ -987,6 +1027,11 @@ hr {
   text-align: center;
   padding: 0 42px;
 }
+@media screen and (max-width: 1100px) {
+  .works .posts .design p {
+    padding: 0 6px;
+  }
+}
 .works .posts .urban h6 {
   font-family: 'Lato-Regular';
   font-size: 16px;
@@ -1001,6 +1046,11 @@ hr {
   text-align: center;
   padding: 0 42px;
 }
+@media screen and (max-width: 1100px) {
+  .works .posts .urban p {
+    padding: 0 6px;
+  }
+}
 .works .posts .posters h6 {
   font-family: 'Lato-Regular';
   font-size: 16px;
@@ -1014,6 +1064,11 @@ hr {
   color: #f9f9f9;
   text-align: center;
   padding: 0 42px;
+}
+@media screen and (max-width: 1100px) {
+  .works .posts .posters p {
+    padding: 0 6px;
+  }
 }
 .works button:focus {
   outline: none;
