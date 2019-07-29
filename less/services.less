@@ -12,6 +12,9 @@
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
+    @media screen and (max-width: 991px){
+      display: contents;
+    }
     .slider {
       padding: 18% 7%;
       height: 640px;
@@ -27,6 +30,10 @@
     grid-template-columns: 50% 50%;
     justify-items: center;
     align-items: center;
+    @media screen and (max-width: 991px){
+      grid-template-rows: 175px 175px 175px;
+      margin-top: -30px;
+    }
     a {
       color: @color_16;
       display: grid;
@@ -36,11 +43,17 @@
       }
       i {
         font-size: 36px;
+        @media screen and (max-width: 400px){
+          font-size: 33px;
+        }
       }
       span {
         font-family: 'Lato-Bold';
         font-size: 24px;
         margin-top: 22px;
+        @media screen and (max-width: 400px){
+          font-size: 21px;
+        }
       }
     }
     a.active {

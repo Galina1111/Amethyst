@@ -1499,6 +1499,11 @@ hr {
   display: grid;
   grid-template-columns: 50% 50%;
 }
+@media screen and (max-width: 991px) {
+  .services .display-slider {
+    display: contents;
+  }
+}
 .services .display-slider .slider {
   padding: 18% 7%;
   height: 640px;
@@ -1514,6 +1519,12 @@ hr {
   justify-items: center;
   align-items: center;
 }
+@media screen and (max-width: 991px) {
+  .services .js-display-services {
+    grid-template-rows: 175px 175px 175px;
+    margin-top: -30px;
+  }
+}
 .services .js-display-services a {
   color: #999999;
   display: grid;
@@ -1525,10 +1536,20 @@ hr {
 .services .js-display-services a i {
   font-size: 36px;
 }
+@media screen and (max-width: 400px) {
+  .services .js-display-services a i {
+    font-size: 33px;
+  }
+}
 .services .js-display-services a span {
   font-family: 'Lato-Bold';
   font-size: 24px;
   margin-top: 22px;
+}
+@media screen and (max-width: 400px) {
+  .services .js-display-services a span {
+    font-size: 21px;
+  }
 }
 .services .js-display-services a.active {
   color: #333333;
@@ -2682,6 +2703,10 @@ hr {
   padding-right: 15px;
   padding-left: 15px;
 }
+.contact .user-form form .form-row > [class*=col-] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .contact .user-form form .form-row.justify-content-md-center {
   margin-bottom: 16px;
 }
@@ -2709,10 +2734,6 @@ hr {
   .contact .user-form button {
     margin: 10px auto;
   }
-}
-.form-row > [class*=col-] {
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .footer {
   background-color: #222222;

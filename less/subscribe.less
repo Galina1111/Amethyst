@@ -1,18 +1,28 @@
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
 
-@-webkit-keyframes Rotate
-{
-  from{-webkit-transform:rotate(0deg);}
-  to{-webkit-transform:rotate(360deg);}
+@-moz-keyframes Rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
 }
-@-moz-keyframes Rotate
-{
-  from{-moz-transform:rotate(0deg);}
-  to{-moz-transform:rotate(360deg);}
-}
-@-ms-keyframes Rotate
-{
-  from{-ms-transform:rotate(0deg);}
-  to{-ms-transform:rotate(360deg);}
+
+@-ms-keyframes Rotate {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
 }
 
 .subscribe {
@@ -34,15 +44,15 @@
     grid-template-columns: 60px 60px 60px 60px;
     grid-column-gap: 22px;
     margin-top: 37px;
-    @media screen and (max-width: 350px){
+    @media screen and (max-width: 350px) {
       grid-column-gap: 15px;
     }
     a.social-network {
       display: grid;
       justify-items: center;
       z-index: 1000;
-      &:hover{
-        span{
+      &:hover {
+        span {
 
         }
       }
@@ -54,11 +64,11 @@
       width: 60px;
       position: absolute;
       bottom: 13%;
-      @media screen and (max-width: 453px){
+      @media screen and (max-width: 453px) {
         position: absolute;
         bottom: 11%;
       }
-      @media screen and (max-width: 350px){
+      @media screen and (max-width: 350px) {
         position: absolute;
         bottom: 11%;
       }
