@@ -17,6 +17,8 @@ jQuery(function ($) {
         });
         return false;
     });
+    //анімація
+    new WOW().init();
 
     //слайдер
     $('.testimonials-logos-slider').slick({
@@ -190,6 +192,8 @@ jQuery(function ($) {
 
         }
     });
+
+
 
 
 });

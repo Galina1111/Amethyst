@@ -48,6 +48,16 @@ hr {
   margin-top: 0;
   margin-bottom: 0;
 }
+@keyframes anime-H4 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .header-top {
   background: linear-gradient(to bottom right, #8f66b9, #ca7f2f);
 }
@@ -353,6 +363,7 @@ hr {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Anders';
+  animation: anime-H4 1.9s ease-out;
 }
 @media screen and (max-width: 1079px) {
   .header-top .header_Main h4 {
