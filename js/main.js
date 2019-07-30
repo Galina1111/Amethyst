@@ -176,21 +176,9 @@ jQuery(function ($) {
         });
     };
 
-
-    // $(".nav-item a").click(function(event) {
-    //     $(".nav-item a").removeClass("active");
-    //     $(this).addClass("active");
-    // });
-
     $('.icon').click(function () {
-        if ($(window).width() <= 700) {
-            $('.icon').toggleClass('active');
-            $('.nav').toggle();
-        } else if($(window).width() > 700) {
-            $('#nav-menu').css('display', 'flex');
-            $('#nav-menu').show();
-
-        }
+        $('.icon').toggleClass('active');
+        $('.nav').toggleClass('active');
     });
 
 

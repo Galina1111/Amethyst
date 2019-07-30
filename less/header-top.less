@@ -1,9 +1,9 @@
 @keyframes anime-H4 {
-  0%{
+  0% {
     opacity: 0;
     transform: translateY(-100px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -311,28 +311,26 @@
               top: -6px;
             }
           }
+          &.active{
+            .hamburger {
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+              background: rgba(0, 0, 0, 0);
+              &:before {
+                top: 0;
+                left: 0;
+                transform: rotate(45deg);
+              }
+              &:after {;
+                top: 0;
+                left: 0;
+                transform: rotate(135deg);
+              }
+            }
+          }
           &:hover {
             box-shadow: 0 0 15px #bda6c1;
           }
         }
-
-        .icon.active {
-          .hamburger {
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
-            background: rgba(0, 0, 0, 0);
-            &:before {
-              top: 0;
-              left: 0;
-              transform: rotate(45deg);
-            }
-            &:after {;
-              top: 0;
-              left: 0;
-              transform: rotate(135deg);
-            }
-          }
-        }
-
       }
     }
     .nav {
@@ -353,6 +351,11 @@
         width: 65%;
         text-align: center;
         margin-top: 52px;
+      }
+      &.active {
+        @media screen  and (max-width: 700px) {
+          display: block;
+        }
       }
       > li {
         > a {

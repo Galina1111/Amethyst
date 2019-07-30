@@ -435,9 +435,6 @@ hr {
     transition: 0.5s;
     top: -6px;
   }
-  .header-top .header_Main .hamburger-button .icon:hover {
-    box-shadow: 0 0 15px #bda6c1;
-  }
   .header-top .header_Main .hamburger-button .icon.active .hamburger {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     background: rgba(0, 0, 0, 0);
@@ -451,6 +448,9 @@ hr {
     top: 0;
     left: 0;
     transform: rotate(135deg);
+  }
+  .header-top .header_Main .hamburger-button .icon:hover {
+    box-shadow: 0 0 15px #bda6c1;
   }
 }
 .header-top .header_Main .nav {
@@ -479,6 +479,11 @@ hr {
     width: 65%;
     text-align: center;
     margin-top: 52px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header-top .header_Main .nav.active {
+    display: block;
   }
 }
 .header-top .header_Main .nav > li > a:hover {
@@ -1595,6 +1600,7 @@ hr {
   color: #999999;
   display: grid;
   justify-items: center;
+  text-decoration: none;
 }
 .services .js-display-services a:hover {
   color: #9149da;
