@@ -48,6 +48,10 @@ hr {
   margin-top: 0;
   margin-bottom: 0;
 }
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+}
 @keyframes anime-H4 {
   0% {
     opacity: 0;
@@ -975,6 +979,8 @@ hr {
 .works .posts {
   width: 100%;
   margin: 34px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 .works .posts .post {
   width: 16.6667%;
@@ -1798,10 +1804,10 @@ hr {
 .skills .info-rating .progress-info .progress-bar .progress-value {
   color: #ffffff;
   background: linear-gradient(49.25turn, #8f66b9 50%, #ca7f2f);
-  transition: 0.3s all linear;
+  overflow: visible !important;
   border-radius: 4px;
   height: 12px;
-  width: 28%;
+  width: 30%;
 }
 .skills .info-rating .progress-info .progress-bar .progress-value span {
   color: black;
@@ -2425,6 +2431,7 @@ hr {
   font-size: 16px;
   color: black;
   text-align: left;
+  padding: 8.5px 16px;
 }
 @media screen and (max-width: 335px) {
   .faq .tabs .nav-tabs .nav-item .nav-link.active {
@@ -2651,15 +2658,15 @@ hr {
   box-shadow: 0 0 15px #ffffff;
   border: 2px dashed #e1e1e1;
   -webkit-animation-name: Rotate;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-name: Rotate;
-  -moz-animation-duration: 2s;
+  -moz-animation-duration: 15s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
   -ms-animation-name: Rotate;
-  -ms-animation-duration: 2s;
+  -ms-animation-duration: 15s;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
 }
@@ -3042,6 +3049,7 @@ hr {
   color: #ffffff;
   font-size: 20px;
   padding: 0 3px;
+  cursor: pointer;
 }
 .footer .container .bottom-info .icons-footer .fa-facebook-square:hover {
   color: #9966cc;

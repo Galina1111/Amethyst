@@ -42,7 +42,7 @@ jQuery(function ($) {
                 slidesToShow: 5,
                 arrows: false
             }
-        },{
+        }, {
             breakpoint: 950,
             settings: {
                 slidesToShow: 4,
@@ -59,21 +59,21 @@ jQuery(function ($) {
                 mobileFirst: true,
 
             }
-        },{
+        }, {
             breakpoint: 570,
             settings: {
                 slidesToShow: 2,
                 arrows: false,
                 mobileFirst: true,
-                width:20
+                width: 20
             }
-        },{
+        }, {
             breakpoint: 410,
             settings: {
                 slidesToShow: 1,
                 arrows: false,
                 mobileFirst: true,
-                width:20
+                width: 20
             }
         }
         ]
@@ -95,93 +95,96 @@ jQuery(function ($) {
         return false;
     });
 
-
-
-
-
-
-    var elem1 = document.getElementById("bar-eighty");
-    var elem2 = document.getElementById("bar-ninety-seven");
-    var elem3 = document.getElementById("bar-sixty-five");
-    var elem4 = document.getElementById("bar-seventy-two");
-    var width = 2;
-    var id = setInterval(animat1, 100);
-    var id2 = setInterval(animat2, 100);
-    var id3 = setInterval(animat3, 100);
-    var id4 = setInterval(animat4, 100);
-    function animat1() {
-        if (width >= 80) {
-            clearInterval(id);
-        } else {
-            width++;
-            elem1.style.width = width +'%';
-            document.getElementById("span-value-eighty").innerHTML = width;
-        }
+    function animate_testimonial() {
+        var time = 2, cc = 1;
+        $(window).scroll(function () {
+            $('#counter').each(function () {
+                var
+                    cPos = $(this).offset().top,
+                    topWindow = $(window).scrollTop();
+                if (cPos < topWindow + 500) {
+                    if (cc < 2) {
+                        $('div').each(function () {
+                            var
+                                i = 1,
+                                num = $(this).data('num'),
+                                step = 1000 * time / num,
+                                that = $(this),
+                                int = setInterval(function () {
+                                    if (i <= num) {
+                                        that.html(i);
+                                    }
+                                    else {
+                                        cc = cc + 2;
+                                        clearInterval(int);
+                                    }
+                                    i++;
+                                }, step);
+                        });
+                    }
+                }
+            });
+        });
     }
-    function animat2() {
-        if (width >= 97) {
-            clearInterval(id2);
-        } else {
-            width++;
-            elem2.style.width = width + '%';
-            document.getElementById("span-value-ninety-seven").innerHTML = width;
-        }
-    }
-    function animat3() {
-        if (width >= 65) {
-            clearInterval(id3);
-        } else {
-            width++;
-            elem3.style.width = width + '%';
-            document.getElementById("span-value-sixty-five").innerHTML = width;
-        }
-    }
-    function animat4() {
-        if (width >= 72) {
-            clearInterval(id4);
-        } else {
-            width++;
-            elem4.style.width = width + '%';
-            document.getElementById("span-value-seventy-two").innerHTML = width;
-        }
-    }
-    $(window).scroll(animat1);
-    $(window).scroll(animat2);
-    $(window).scroll(animat3);
-    $(window).scroll(animat4);
+
+    animate_testimonial();
+
+    function animate_skills() {
 
 
-    $(".button a").click(function(event) {
-        $(".button a").removeClass("active");
-        $(this).addClass("active");
+    }
+
+    $(window).scroll(function () {
+        var position = $('.skills').offset().top - $('.skills').height(),
+            scrollPosition = $(window).scrollTop(),
+            start = false;
+        if (!start && scrollPosition > position) {
+            start = true;
+            $('.skills .progress-bar span').each(function () {
+                $(this).parent().animate({
+                    width: $(this).data('count') + '%'
+                }, {
+                    step: function (now, fx) {
+                        fx.elem.firstElementChild.innerHTML = Math.round(now) + '%';
+                    },
+                    duration: 3000,
+                    queue: false,
+                });
+            });
+        }
+    });
+    $(document).on('click', '.skills', function () {
+
     });
 
 
-
+    $(".button a").click(function (event) {
+        $(".button a").removeClass("active");
+        $(this).addClass("active");
+    });
 
 
     var acc = document.getElementsByClassName("accordion");
     var i;
 
     for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
+        acc[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
-            if (panel.style.maxHeight){
+            if (panel.style.maxHeight) {
                 panel.style.maxHeight = null;
             } else {
                 panel.style.maxHeight = panel.scrollHeight + "px";
             }
 
         });
-    };
+    }
+    ;
 
     $('.icon').click(function () {
         $('.icon').toggleClass('active');
         $('.nav').toggleClass('active');
     });
-
-
 
 
 });
