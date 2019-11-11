@@ -52,6 +52,9 @@ input:focus,
 textarea:focus {
   box-shadow: none !important;
 }
+iframe {
+  border: none;
+}
 @keyframes anime-H4 {
   0% {
     opacity: 0;
